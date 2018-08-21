@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kaributesting:mock-servlet-environment:0.4.15">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kaributesting/mock-servlet-environment/0.4.15/d632623d6945dfcf2f3ae0850756ca597310b699/mock-servlet-environment-0.4.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kaributesting/mock-servlet-environment/0.4.15/3c2c5112033189de90f112791078ebe5745d14f2/mock-servlet-environment-0.4.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

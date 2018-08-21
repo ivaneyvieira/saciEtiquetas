@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars.bowergithub.vaadin:vaadin-development-mode-detector:1.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-development-mode-detector/1.0.3/b78b2bed4dd9b4dfdd6faff816026fd208d1ad36/vaadin-development-mode-detector-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-development-mode-detector/1.0.3/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-development-mode-detector-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

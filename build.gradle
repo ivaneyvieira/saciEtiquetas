@@ -1,9 +1,5 @@
-// The Beverage Buddy sample project ported to Kotlin.
-// Original project: https://github.com/vaadin/beverage-starter-flow
-
 buildscript {
     ext.karibudsl_version = '0.4.6'
-    ext.vaadinonkotlin_version = '0.4.12'
     ext.vaadin10_version = '10.0.2'
 }
 
@@ -22,7 +18,6 @@ repositories {
     jcenter()   // required for the new org.gretty:2.1.0
     maven { url 'https://maven.vaadin.com/vaadin-addons' }
     maven { url 'https://maven.vaadin.com/vaadin-prereleases' }
-    maven { url "https://dl.bintray.com/mvysny/vaadin-on-kotlin" }
     maven { url "https://dl.bintray.com/mvysny/github" }
 }
 
@@ -45,7 +40,6 @@ test {
 dependencies {
     // Karibu-DSL dependency, includes Vaadin
     compile("com.github.vok.karibudsl:karibu-dsl-v10:$karibudsl_version")
-    compile "com.github.vok:vok-framework-v10-sql2o:$vaadinonkotlin_version"
     providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
 
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.60"
@@ -55,12 +49,14 @@ dependencies {
     compile 'ch.qos.logback:logback-classic:1.2.3'
     compile 'org.slf4j:slf4j-api:1.7.25'
 
-    // db
-    compile "org.flywaydb:flyway-core:5.0.7"
-    compile 'com.h2database:h2:1.4.197' // remove this and replace it with a database driver of your choice.
-
-    // REST
-    compile "com.github.vok:vok-rest:$vaadinonkotlin_version"
+    //Dependências do ebean
+    //kapt 'io.ebean:kotlin-querybean-generator:11.1.2'
+    compile "io.ebean:ebean:11.19.1"
+    compile "io.ebean:querybean-generator:11.19.1"
+    compile "io.ebean:ebean-querybean:11.19.1"
+    compile "io.ebean:ebean-annotation:4.1"
+    compile "io.ebean.tools:finder-generator:4.2.2"
+    compile "mysql:mysql-connector-java:5.1.46"
 
     // testing
     testCompile "com.github.kaributesting:karibu-testing-v10:0.4.15"

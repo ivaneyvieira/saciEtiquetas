@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.avaje:avaje-datasource-api:3.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.avaje/avaje-datasource-api/3.2/3c2db7c3f3fc645d300bd34cd9330c7d41b01306/avaje-datasource-api-3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.avaje/avaje-datasource-api/3.2/b064f5a4f6dbd36ce1e49bca2a6be122af416eae/avaje-datasource-api-3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.avaje/avaje-datasource-api/3.2/e274ed0d784eec0b36302f4ab2fe46e3c5baa13d/avaje-datasource-api-3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

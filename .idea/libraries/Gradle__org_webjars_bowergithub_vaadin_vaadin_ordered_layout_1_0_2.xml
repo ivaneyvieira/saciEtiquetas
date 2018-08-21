@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.webjars.bowergithub.vaadin:vaadin-ordered-layout:1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-ordered-layout/1.0.2/3b3b8da50aba7f89c794ebe8c15f52da82fdebce/vaadin-ordered-layout-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.webjars.bowergithub.vaadin/vaadin-ordered-layout/1.0.2/b04f3ee8f5e43fa3b162981b50bb72fe1acabb33/vaadin-ordered-layout-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ebean:ebean-migration:11.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ebean/ebean-migration/11.7.1/10d915d7b2ab323a104c6ed8a988d8d53db815c2/ebean-migration-11.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ebean/ebean-migration/11.7.1/869d5be8ac19c992e1f82ce8babb66d97d064a5/ebean-migration-11.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ebean/ebean-migration/11.7.1/4c65083557c094c1d39fdd8e3a5bb171660b2ed9/ebean-migration-11.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
