@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Gradle : saciEtiquetas.war">
-    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <output-path>$USER_HOME$/ssd/git/saciEtiquetas/build/libs</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$" />
     </properties>

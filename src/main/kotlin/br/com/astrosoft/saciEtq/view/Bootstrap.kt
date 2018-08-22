@@ -1,4 +1,4 @@
-package br.com.astrosoft.saciEtq
+package br.com.astrosoft.saciEtq.view
 
 import org.slf4j.LoggerFactory
 import javax.servlet.ServletContextEvent

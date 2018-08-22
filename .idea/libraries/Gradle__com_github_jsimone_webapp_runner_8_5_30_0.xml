@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jsimone/webapp-runner/8.5.30.0/3be7b3ffb8b206777366b60ebfe279aadd4bc6a9/webapp-runner-8.5.30.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jsimone/webapp-runner/8.5.30.0/a12a1f5a6b068d5f7e7372e0c88d3ecafd3353c9/webapp-runner-8.5.30.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jsimone/webapp-runner/8.5.30.0/4d650236ea83e65a075e802c7343231025027dca/webapp-runner-8.5.30.0-sources.jar!/" />
     </SOURCES>

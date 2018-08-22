@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="saciEtiquetas:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="saciEtiquetas:test" external.linked.project.path="$USER_HOME$/ssd/git/saciEtiquetas" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
         <compilerSettings />
         <compilerArguments>
-          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/test" />
+          <option name="destination" value="$USER_HOME$/ssd/git/saciEtiquetas/build/classes/kotlin/test" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="saciEtiquetas" />
@@ -25,12 +25,12 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
+    <output-test url="file://$USER_HOME$/ssd/git/saciEtiquetas/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/test/kotlin" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+    <content url="file://$USER_HOME$/ssd/git/saciEtiquetas/src/test">
+      <sourceFolder url="file://$USER_HOME$/ssd/git/saciEtiquetas/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/ssd/git/saciEtiquetas/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/ssd/git/saciEtiquetas/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -40,12 +40,19 @@
     <orderEntry type="library" name="Gradle: com.github.mvysny.dynatest:dynatest:0.8" level="project" />
     <orderEntry type="library" name="Gradle: com.github.kaributesting:mock-servlet-environment:0.4.15" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.60" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.60" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: io.ebean.tools:finder-generator:4.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: de.kaesdingeling:hybridmenu:3.0.12.vaadin10" level="project" />
+    <orderEntry type="library" name="Gradle: org.claspina:confirm-dialog:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.vaadin.crudui:crudui:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin:vaadin:10.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.vaadin.pekka:checkbox-group-java:1.0.0.alpha1" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-core:10.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:flow-data:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:flow-html-components:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:flow-server:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-simple:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: com.helger:ph-css:6.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.helger:ph-commons:9.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
@@ -59,8 +66,8 @@
     <orderEntry type="library" name="Gradle: com.intellij:annotations:12.0" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.10.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-text-field-flow:1.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.jsimone:webapp-runner:8.5.30.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.validation:validation-api:2.0.1.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish:javax.el:3.0.1-b08" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.60" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.2.31" level="project" />
@@ -72,7 +79,10 @@
     <orderEntry type="library" name="Gradle: io.ebean:ebean-migration:11.7.1" level="project" />
     <orderEntry type="library" name="Gradle: org.avaje:avaje-classpath-scanner:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.antlr:antlr4-runtime:4.7.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-charts-flow:6.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.5.2" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.ocpsoft.prettytime:prettytime:4.0.1.Final" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:flow-push:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin.external.atmosphere:atmosphere-runtime:2.4.24.vaadin1" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.1.0" level="project" />
@@ -81,16 +91,16 @@
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-lumo-theme:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-button-flow:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-checkbox-flow:1.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-combo-box-flow:1.0.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.30" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-combo-box-flow:1.0.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.30" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-date-picker-flow:1.0.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-dialog-flow:1.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.30" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-dialog-flow:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-form-layout-flow:1.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat.embed:tomcat-embed-logging-juli:8.5.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-grid-flow:1.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-jasper:8.5.30" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-grid-flow:1.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-jasper-el:8.5.30" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin:vaadin-icons-flow:1.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-jsp-api:8.5.30" level="project" />
@@ -110,6 +120,7 @@
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.avaje:avaje-datasource-api:3.2" level="project" />
     <orderEntry type="library" name="Gradle: org.avaje:avaje-classpath-scanner-api:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin:vaadin-board-flow:2.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.vaadin.external.slf4j:vaadin-slf4j-jdk14:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: org.junit.platform:junit-platform-commons:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apiguardian:apiguardian-api:1.0.0" level="project" />
@@ -127,8 +138,8 @@
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-checkbox:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-combo-box:4.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-text-field:2.0.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.30" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-list-box:1.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.30" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-tabs:2.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.30" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-item:2.0.0" level="project" />
@@ -137,12 +148,12 @@
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-dialog:2.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-overlay:3.0.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-api:8.5.30" level="project" />
-    <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-form-layout:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-servlet-api:8.5.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-form-layout:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-util:8.5.30" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-ordered-layout:1.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-progress-bar:1.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.30" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-progress-bar:1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-radio-button:1.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-el-api:8.5.30" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-split-layout:4.0.1" level="project" />
@@ -153,6 +164,8 @@
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.polymerelements:iron-iconset-svg:2.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.polymerelements:iron-meta:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.polymerelements:iron-flex-layout:2.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin.webjar:vaadin-charts:6.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.vaadin.webjar:vaadin-board:2.0.0" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-element-mixin:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-usage-statistics:1.0.8" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:vaadin-development-mode-detector:1.0.3" level="project" />
@@ -167,10 +180,12 @@
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.polymerelements:iron-a11y-keys-behavior:2.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.polymerelements:iron-fit-behavior:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.polymerelements:iron-media-query:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars.bowergithub.vaadin:license-checker:2.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.polymer:polymer:2.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.webcomponents:webcomponentsjs:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.webjars.bowergithub.webcomponents:shadycss:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.5.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="saciEtiquetas_main" />
