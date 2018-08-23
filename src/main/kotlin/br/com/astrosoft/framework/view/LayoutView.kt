@@ -19,30 +19,12 @@ import com.vaadin.data.HasValue
 import com.vaadin.data.ReadOnlyHasValue
 import com.vaadin.data.provider.DataProvider
 import com.vaadin.data.provider.ListDataProvider
-<<<<<<< HEAD
-import com.vaadin.flow.component.Component
-import com.vaadin.flow.component.HasValue
-import com.vaadin.flow.component.combobox.ComboBox
-import com.vaadin.flow.component.grid.Grid
-import com.vaadin.flow.component.orderedlayout.VerticalLayout
-import com.vaadin.flow.data.binder.Binder
-import com.vaadin.flow.data.binder.HasItems
-import com.vaadin.flow.data.binder.ReadOnlyHasValue
-import com.vaadin.flow.data.provider.ListDataProvider
-import com.vaadin.flow.server.StreamResource
-=======
->>>>>>> 6013460d6d2497a0982356eaef74b516f38aaa6a
 import com.vaadin.navigator.View
-import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent
+import com.vaadin.navigator.ViewChangeListener
 import com.vaadin.server.BrowserWindowOpener
 import com.vaadin.server.StreamResource
-import com.vaadin.ui.ComboBox
-import com.vaadin.ui.Component
-import com.vaadin.ui.Grid
-import com.vaadin.ui.Grid.Column
 import com.vaadin.ui.HasComponents
-import com.vaadin.ui.TwinColSelect
-import com.vaadin.ui.VerticalLayout
+import com.vaadin.ui.*
 import com.vaadin.ui.renderers.LocalDateRenderer
 import com.vaadin.ui.renderers.NumberRenderer
 import com.vaadin.ui.themes.ValoTheme
@@ -77,7 +59,7 @@ abstract class LayoutView<V : ViewModel> : VerticalLayout(), View, IView {
     this.block()
   }
   
-  override fun enter(event: ViewChangeEvent) {
+  override fun enter(event: ViewChangeListener.ViewChangeEvent) {
     updateView(viewModel)
   }
   
@@ -240,11 +222,11 @@ fun <BEAN> reloadPropertys(
   }
 }
 
-fun <C> Column<C, LocalDate?>.dateFormat() {
+fun <C> Grid.Column<C, LocalDate?>.dateFormat() {
   this.setRenderer(LocalDateRenderer { DateTimeFormatter.ofPattern("dd/MM/yyyy") })
 }
 
-fun <C> Column<C, Int?>.intFormat() {
+fun <C> Grid.Column<C, Int?>.intFormat() {
   setRenderer(NumberRenderer(DecimalFormat("0")))
   align = VAlign.Right
 }

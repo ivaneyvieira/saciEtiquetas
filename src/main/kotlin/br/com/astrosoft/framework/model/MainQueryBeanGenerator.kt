@@ -17,8 +17,8 @@ object MainQueryBeanGenerator {
     config.destDirectory = "./src/main/kotlin"
     config.destResourceDirectory = "./src/main/resources"
   
-    config.entityBeanPackage = "br.com.engecopi.estoque.model"
-    config.destPackage = "br.com.engecopi.estoque.model.query"
+    config.entityBeanPackage = "br.com.astrosoft.saciEtq.model"
+    config.destPackage = "br.com.astrosoft.saciEtq.model.query"
   
     config.isOverwriteExistingFinders = true
     

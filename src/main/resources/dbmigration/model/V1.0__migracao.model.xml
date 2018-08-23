@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<migration xmlns="http://ebean-orm.github.io/xml/ns/dbmigration">
+    <changeSet type="apply">
+        <createTable name="locais" identityType="identity" pkName="pk_locais">
+            <column name="id" type="bigint" primaryKey="true"/>
+            <column name="loja_id" type="bigint" references="lojas.id" foreignKeyName="fk_locais_loja_id" foreignKeyIndex="ix_locais_loja_id"/>
+            <column name="localizacao" type="varchar(30)" notnull="true"/>
+            <column name="created_at" type="timestamp" notnull="true"/>
+            <column name="updated_at" type="timestamp" notnull="true"/>
+            <column name="version" type="integer" notnull="true"/>
+        </createTable>
+        <createTable name="lojas" identityType="identity" pkName="pk_lojas">
+            <column name="id" type="bigint" primaryKey="true"/>
+            <column name="numero" type="integer" notnull="true"/>
+            <column name="sigla" type="varchar(2)" notnull="true"/>
+            <column name="created_at" type="timestamp" notnull="true"/>
+            <column name="updated_at" type="timestamp" notnull="true"/>
+            <column name="version" type="integer" notnull="true"/>
+            <uniqueConstraint name="uq_lojas_numero" columnNames="numero" oneToOne="false" nullableColumns=""/>
+        </createTable>
+        <createTable name="notas" identityType="identity" pkName="pk_notas">
+            <column name="id" type="bigint" primaryKey="true"/>
+            <column name="loja_id" type="bigint" references="lojas.id" foreignKeyName="fk_notas_loja_id" foreignKeyIndex="ix_notas_loja_id"/>
+            <column name="rota" type="varchar(4)" notnull="true"/>
+            <column name="nota" type="varchar(16)" notnull="true"/>
+            <column name="tipo_nota" type="varchar(20)" notnull="true"/>
+            <column name="data" type="date" notnull="true"/>
+            <column name="saldo" type="integer" notnull="true"/>
+            <column name="prdno" type="varchar(16)" notnull="true"/>
+            <column name="grade" type="varchar(8)" notnull="true"/>
+            <column name="name" type="varchar(40)" notnull="true"/>
+            <column name="un" type="varchar(4)" notnull="true"/>
+            <column name="loc" type="varchar(30)" notnull="true"/>
+            <column name="created_at" type="timestamp" notnull="true"/>
+            <column name="updated_at" type="timestamp" notnull="true"/>
+            <column name="version" type="integer" notnull="true"/>
+        </createTable>
+        <createTable name="usuarios" identityType="identity" pkName="pk_usuarios">
+            <column name="id" type="bigint" primaryKey="true"/>
+            <column name="login_name" type="varchar(8)" notnull="true"/>
+            <column name="impressora" type="varchar(30)" notnull="true"/>
+            <column name="loja_id" type="bigint" references="lojas.id" foreignKeyName="fk_usuarios_loja_id" foreignKeyIndex="ix_usuarios_loja_id"/>
+            <column name="localizacaoes" type="varchar(4000)" notnull="true"/>
+            <column name="nome" type="varchar(50)" notnull="true"/>
+            <column name="created_at" type="timestamp" notnull="true"/>
+            <column name="updated_at" type="timestamp" notnull="true"/>
+            <column name="version" type="integer" notnull="true"/>
+            <uniqueConstraint name="uq_usuarios_login_name" columnNames="login_name" oneToOne="false" nullableColumns=""/>
+        </createTable>
+    </changeSet>
+</migration>
