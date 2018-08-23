@@ -1,6 +1,5 @@
 package br.com.astrosoft.framework.model
 
-import br.com.astrosoft.framework.model.Transaction
 import java.io.IOException
 import javax.servlet.Filter
 import javax.servlet.FilterChain

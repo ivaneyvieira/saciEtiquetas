@@ -3,7 +3,6 @@ package br.com.astrosoft.framework.model
 import br.com.astrosoft.framework.model.AppException
 import br.com.astrosoft.framework.model.BaseModel
 import br.com.astrosoft.framework.model.DevException
-import br.com.astrosoft.framework.model.Transaction
 import io.ebean.RawSqlBuilder
 import kotlin.reflect.full.isSubclassOf
 
