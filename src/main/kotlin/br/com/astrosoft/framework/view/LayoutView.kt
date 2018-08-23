@@ -31,6 +31,7 @@ import com.vaadin.flow.component.grid.Grid
 import com.vaadin.flow.component.orderedlayout.VerticalLayout
 import com.vaadin.flow.data.binder.Binder
 import com.vaadin.flow.data.binder.HasItems
+import com.vaadin.flow.data.binder.ReadOnlyHasValue
 import com.vaadin.flow.data.provider.ListDataProvider
 import com.vaadin.flow.server.StreamResource
 import com.vaadin.navigator.View
