@@ -1,7 +1,6 @@
 package br.com.astrosoft.framework.viewmodel
 
 import br.com.astrosoft.framework.model.Transaction
-import br.com.astrosoft.framework.model.UserException
 
 abstract class ViewModel(val view: IView) {
   private var inExcection = false

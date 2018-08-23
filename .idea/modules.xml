@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1930809111/git-saciEtiquetas.iml" filepath="$PROJECT_DIR$/.idea/modules/-1930809111/git-saciEtiquetas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1930809111/dep_endereco-saciEtiquetas.iml" filepath="$PROJECT_DIR$/.idea/modules/-1930809111/dep_endereco-saciEtiquetas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1930809111/saciEtiquetas_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1930809111/saciEtiquetas_main.iml" group="saciEtiquetas" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1930809111/saciEtiquetas_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1930809111/saciEtiquetas_test.iml" group="saciEtiquetas" />
     </modules>

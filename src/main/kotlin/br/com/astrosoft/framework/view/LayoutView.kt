@@ -1,18 +1,13 @@
 package br.com.astrosoft.framework.view
-
+import br.com.astrosoft.framework.utils.SystemUtils
 import br.com.astrosoft.framework.viewmodel.IView
 import br.com.astrosoft.framework.viewmodel.ViewModel
-import br.com.engecopi.framework.ui.view.MessageDialog
-import br.com.engecopi.framework.viewmodel.IView
-import br.com.engecopi.framework.viewmodel.ViewModel
-import br.com.engecopi.utils.SystemUtils
 import com.fo0.advancedtokenfield.main.AdvancedTokenField
 import com.github.vok.karibudsl.VAlign
 import com.github.vok.karibudsl.VaadinDsl
 import com.github.vok.karibudsl.align
 import com.github.vok.karibudsl.bind
 import com.github.vok.karibudsl.fillParent
-import com.github.vok.karibudsl.flow.VaadinDsl
 import com.github.vok.karibudsl.init
 import com.github.vok.karibudsl.isMargin
 import com.github.vok.karibudsl.label
@@ -24,9 +19,6 @@ import com.vaadin.data.HasValue
 import com.vaadin.data.ReadOnlyHasValue
 import com.vaadin.data.provider.DataProvider
 import com.vaadin.data.provider.ListDataProvider
-import com.vaadin.flow.component.grid.Grid
-import com.vaadin.flow.component.orderedlayout.VerticalLayout
-import com.vaadin.flow.data.provider.ListDataProvider
 import com.vaadin.navigator.View
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent
 import com.vaadin.server.BrowserWindowOpener

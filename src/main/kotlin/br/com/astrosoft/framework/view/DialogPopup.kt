@@ -1,40 +1,47 @@
 package br.com.astrosoft.framework.view
 
-import com.github.vok.karibudsl.flow.flexLayout
-import com.github.vok.karibudsl.flow.verticalLayout
-import com.vaadin.flow.component.ClickEvent
-import com.vaadin.flow.component.Component
-import com.vaadin.flow.component.button.Button
-import com.vaadin.flow.component.dialog.Dialog
-import com.vaadin.flow.component.html.Label
-import com.vaadin.flow.component.orderedlayout.HorizontalLayout
-import com.vaadin.flow.component.orderedlayout.VerticalLayout
-import com.vaadin.flow.data.binder.BeanValidationBinder
-import com.vaadin.flow.shared.Registration
-import de.kaesdingeling.hybridmenu.utils.Styles.content
-import org.apache.commons.lang3.StringUtils.center
+import com.github.vok.karibudsl.cssLayout
+import com.github.vok.karibudsl.perc
+import com.github.vok.karibudsl.verticalLayout
+import com.github.vok.karibudsl.w
+import com.vaadin.data.BeanValidationBinder
+import com.vaadin.shared.Registration
+import com.vaadin.ui.Button
+import com.vaadin.ui.Component
+import com.vaadin.ui.HorizontalLayout
+import com.vaadin.ui.Label
+import com.vaadin.ui.UI
+import com.vaadin.ui.VerticalLayout
+import com.vaadin.ui.Window
+import com.vaadin.ui.themes.ValoTheme
 import kotlin.reflect.KClass
 
 open class DialogPopup<BEAN : Any>(
-        val caption: String, classBean: KClass<BEAN>
-                                  ) : Dialog() {
+        caption: String, classBean: KClass<BEAN>
+                                  ) : Window(caption) {
   val binder = BeanValidationBinder(classBean.java)
   val form = VerticalLayout().apply {
     setSizeFull()
   }
   
-  private val btnOk: Button = Button("Confirma")
-  
+  private val btnOk: Button = Button("Confirma").apply {
+    addStyleName(ValoTheme.BUTTON_PRIMARY)
+  }
   private val btnCancel = Button("Cancela")
   
   val toolBar = buildToolBar()
   
   init {
-    add(Label(caption))
+    isClosable = false
+    isResizable = false
+    isModal = true
+    addStyleName(ValoTheme.PANEL_WELL)
   }
   
   fun show() {
-    open()
+    center()
+    content = VerticalLayout(form, toolBar)
+    UI.getCurrent().addWindow(this)
   }
   
   fun initForm(condigForm: (VerticalLayout) -> Unit) {
@@ -44,19 +51,21 @@ open class DialogPopup<BEAN : Any>(
   private fun buildToolBar(): Component {
     val espaco = Label()
     val tool = HorizontalLayout()
-    tool.width = "100%"
+    tool.setWidth("100%")
     tool.isSpacing = true
-
-    btnOk.addClickListener { this.btnOkClick() }
-    btnCancel.addClickListener { this.btnCancelClick() }
+    tool.addStyleName(ValoTheme.WINDOW_BOTTOM_TOOLBAR)
+    tool.addComponents(espaco, btnOk, btnCancel)
+    tool.setExpandRatio(espaco, 1f)
+    btnOk.addClickListener({ this.btnOkClick() })
+    btnCancel.addClickListener({ this.btnCancelClick() })
     return tool
   }
   
-  fun addClickListenerOk(listener: (ClickEvent<Button>) -> Unit): Registration {
+  fun addClickListenerOk(listener: (Button.ClickEvent) -> Unit): Registration {
     return btnOk.addClickListener(listener)
   }
   
-  fun addClickListenerCancel(listener: (ClickEvent<Button>) -> Unit): Registration {
+  fun addClickListenerCancel(listener: (Button.ClickEvent) -> Unit): Registration {
     return btnCancel.addClickListener(listener)
   }
   
@@ -72,10 +81,9 @@ open class DialogPopup<BEAN : Any>(
 }
 
 fun VerticalLayout.grupo(caption: String = "", block: VerticalLayout.() -> Unit) {
-  flexLayout {
-    
+  cssLayout(caption) {
     w = 100.perc
- 
+    addStyleName(ValoTheme.LAYOUT_CARD)
     verticalLayout { this.block() }
   }
 }

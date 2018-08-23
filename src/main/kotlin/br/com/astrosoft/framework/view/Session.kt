@@ -1,28 +1,16 @@
 package br.com.astrosoft.framework.view
 
-import com.vaadin.flow.component.UI
-import com.vaadin.flow.server.VaadinRequest
-import com.vaadin.flow.server.VaadinResponse
-import com.vaadin.flow.server.VaadinService
-import com.vaadin.flow.server.VaadinSession
-
+import com.vaadin.server.VaadinRequest
+import com.vaadin.server.VaadinResponse
+import com.vaadin.server.VaadinService
+import com.vaadin.server.VaadinSession
+import com.vaadin.ui.UI
 import java.io.Serializable
 import javax.servlet.http.Cookie
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KClass
 import kotlin.reflect.KProperty
 
-/**
- * Manages session-scoped objects. If the object is not yet present in the session, it is created (using the zero-arg
- * constructor), stored into the session and retrieved.
- *
- * To use this feature, simply define a global property returning desired object as follows:
- * `val Session.loggedInUser: LoggedInUser by lazySession()`
- * Then simply read this property from anywhere, to retrieve the instance. Note that your class needs to be [Serializable] (required when
- * storing stuff into session).
- *
- * WARNING: you can only read the property while holding the Vaadin UI lock (that is, there is current session available).
- */
 class SessionScoped<out R>(private val clazz: Class<R>) : ReadOnlyProperty<Any?, R> {
   override fun getValue(
           thisRef: Any?,

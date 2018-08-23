@@ -3,7 +3,6 @@ package br.com.astrosoft.framework.view
 import com.vaadin.ui.Component
 import de.steinwedel.messagebox.ButtonOption
 import de.steinwedel.messagebox.MessageBox
-import org.claspina.confirmdialog.ButtonOption
 
 object MessageDialog {
   fun info(caption: String = "Informação", message: String) {
