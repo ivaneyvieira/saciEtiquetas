@@ -6,196 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c853dc51-7240-4db1-b432-8da878251bab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_vaadin_10_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_vaadin_board_flow_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_vaadin_charts_flow_6_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_webjar_vaadin_board_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_webjar_vaadin_charts_6_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_kaesdingeling_hybridmenu_3_0_12_vaadin10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_claspina_confirm_dialog_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ocpsoft_prettytime_prettytime_4_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_vaadin_crudui_crudui_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_vaadin_pekka_checkbox_group_java_1_0_0_alpha1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_license_checker_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-1930809111/git-saciEtiquetas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-1930809111/saciEtiquetas_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/-1930809111/saciEtiquetas_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/AppException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/BaseModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/Cache.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/ConnectionFilter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/DB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/MainDbMigration.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/MainQueryBeanGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/Transaction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/view/CrudLayoutView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/view/DialogPopup.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/view/LayoutView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/view/MessageDialog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/view/Session.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/ViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/MainLayout.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaPage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/frontend/logo.png" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_5_2.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_vaadin_vaadin_10_0_2.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_vaadin_vaadin_board_flow_2_0_2.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_vaadin_vaadin_charts_flow_6_0_2.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_vaadin_webjar_vaadin_board_2_0_0.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_vaadin_webjar_vaadin_charts_6_0_1.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__de_kaesdingeling_hybridmenu_3_0_12_vaadin10.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_claspina_confirm_dialog_1_0_0.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_2_60.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_ocpsoft_prettytime_prettytime_4_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_vaadin_crudui_crudui_3_5_0.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_vaadin_pekka_checkbox_group_java_1_0_0_alpha1.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_license_checker_2_0_1.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/modules/-1930809111/git-saciEtiquetas.iml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/modules/-1930809111/saciEtiquetas_main.iml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/modules/-1930809111/saciEtiquetas_test.iml" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/AppException.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/BaseModel.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/Cache.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/ConnectionFilter.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/DB.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/MainDbMigration.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/MainQueryBeanGenerator.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/model/Transaction.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/CrudLayoutView.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/DialogPopup.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/LayoutView.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/MessageDialog.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/Session.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/viewmodel/ViewModel.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/view/MainLayout.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaPage.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaPage.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/webapp/frontend/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___saciEtiquetas_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___saciEtiquetas_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___saciEtiquetas_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___saciEtiquetas_war__exploded_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jsimone_webapp_runner_8_5_30_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jsimone_webapp_runner_8_5_30_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_gentyref_gentyref_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_gentyref_gentyref_1_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_helger_ph_commons_9_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_helger_ph_commons_9_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_helger_ph_css_6_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_helger_ph_css_6_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_fileupload_commons_fileupload_1_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jdt_ecj_3_12_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymer_polymer_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymer_polymer_2_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_announcer_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_announcer_2_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_keys_behavior_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_keys_behavior_2_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_flex_layout_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_flex_layout_2_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_icon_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_icon_2_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_iconset_svg_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_iconset_svg_2_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_media_query_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_media_query_2_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_meta_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_meta_2_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_overlay_behavior_2_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_overlay_behavior_2_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_scroll_target_behavior_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_scroll_target_behavior_2_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_button_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_button_2_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_checkbox_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_checkbox_2_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_combo_box_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_combo_box_4_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_date_picker_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_date_picker_3_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_dialog_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_dialog_2_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_form_layout_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_form_layout_2_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_grid_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_grid_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_icons_4_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_icons_4_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_list_box_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_list_box_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_notification_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_notification_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_ordered_layout_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_ordered_layout_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_progress_bar_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_progress_bar_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_radio_button_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_radio_button_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_tabs_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_tabs_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_text_field_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_text_field_2_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_upload_4_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_upload_4_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/saciEtiquetas_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/saciEtiquetas_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saciEtiquetas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/Bootstrap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/Bootstrap.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/ui/AbstractEditorDialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/ui/ConfirmationDialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/ui/MainLayout.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/ui/Toolbar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V01__CreateCategory.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V02__CreateReview.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/astrosoft/saciEtq/ui/CategoriesListTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/br/com/astrosoft/saciEtq/ui/ReviewsListTest.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/artifacts/Gradle___saciEtiquetas_war.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/artifacts/Gradle___saciEtiquetas_war.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/artifacts/Gradle___saciEtiquetas_war__exploded_.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/artifacts/Gradle___saciEtiquetas_war__exploded_.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/gradle.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_beust_jcommander_1_48.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_beust_jcommander_1_48.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_github_jsimone_webapp_runner_8_5_30_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_github_jsimone_webapp_runner_8_5_30_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_googlecode_gentyref_gentyref_1_2_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_googlecode_gentyref_gentyref_1_2_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_helger_ph_commons_9_0_2.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_helger_ph_commons_9_0_2.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_helger_ph_css_6_1_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__com_helger_ph_css_6_1_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__commons_fileupload_commons_fileupload_1_3_3.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_5.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_5.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_eclipse_jdt_ecj_3_12_3.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymer_polymer_2_6_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymer_polymer_2_6_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_announcer_2_1_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_announcer_2_1_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_keys_behavior_2_1_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_a11y_keys_behavior_2_1_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_flex_layout_2_0_3.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_flex_layout_2_0_3.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_icon_2_1_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_icon_2_1_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_iconset_svg_2_2_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_iconset_svg_2_2_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_media_query_2_1_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_media_query_2_1_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_meta_2_1_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_meta_2_1_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_overlay_behavior_2_3_4.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_overlay_behavior_2_3_4.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_scroll_target_behavior_2_1_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_polymerelements_iron_scroll_target_behavior_2_1_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_button_2_0_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_button_2_0_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_checkbox_2_1_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_checkbox_2_1_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_combo_box_4_0_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_combo_box_4_0_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_date_picker_3_0_2.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_date_picker_3_0_2.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_dialog_2_0_2.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_dialog_2_0_2.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_form_layout_2_0_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_form_layout_2_0_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_grid_5_0_4.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_grid_5_0_4.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_icons_4_1_4.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_icons_4_1_4.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_list_box_1_0_2.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_list_box_1_0_2.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_notification_1_0_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_notification_1_0_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_ordered_layout_1_0_2.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_ordered_layout_1_0_2.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_progress_bar_1_0_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_progress_bar_1_0_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_radio_button_1_0_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_radio_button_1_0_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_tabs_2_0_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_tabs_2_0_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_text_field_2_0_1.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_text_field_2_0_1.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_upload_4_0_0.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/libraries/Gradle__org_webjars_bowergithub_vaadin_vaadin_upload_4_0_0.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/misc.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/modules/saciEtiquetas_main.iml" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/modules/saciEtiquetas_test.iml" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/build.gradle" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/build.gradle" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/saciEtiquetas.iml" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/Bootstrap.kt" beforeDir="false" afterPath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/view/Bootstrap.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/ui/AbstractEditorDialog.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/ui/ConfirmationDialog.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/ui/MainLayout.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/saciEtq/ui/Toolbar.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/resources/db/migration/V01__CreateCategory.sql" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/main/resources/db/migration/V02__CreateReview.sql" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/test/kotlin/br/com/astrosoft/saciEtq/ui/CategoriesListTest.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/ssd/git/saciEtiquetas/src/test/kotlin/br/com/astrosoft/saciEtq/ui/ReviewsListTest.kt" beforeDir="false" />
-    </list>
+    <list default="true" id="c853dc51-7240-4db1-b432-8da878251bab" name="Default Changelist" comment="" />
     <ignored path="$USER_HOME$/ssd/git/saciEtiquetas/.gradle/" />
     <ignored path="$USER_HOME$/ssd/git/saciEtiquetas/build/" />
     <ignored path="$USER_HOME$/ssd/git/saciEtiquetas/out/" />
@@ -231,6 +42,7 @@
     <session id="-1198890973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -239,7 +51,7 @@
         <counts>
           <entry key="gradle" value="3" />
           <entry key="java" value="4" />
-          <entry key="kt" value="26" />
+          <entry key="kt" value="27" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -247,20 +59,20 @@
         <counts>
           <entry key="Groovy" value="3" />
           <entry key="JAVA" value="4" />
-          <entry key="Kotlin" value="26" />
+          <entry key="Kotlin" value="27" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="7" />
-          <entry key="kt" value="154" />
+          <entry key="kt" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="7" />
-          <entry key="Kotlin" value="154" />
+          <entry key="Kotlin" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.test" />
@@ -287,11 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/DialogPopup.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-762">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            <state relative-caret-position="146">
+              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.vok.karibudsl/karibu-dsl-v10/0.4.6/627845ab22ee400b3c0976c01b552dd3d3711c1f/karibu-dsl-v10-0.4.6-sources.jar!/com/github/vok/karibudsl/flow/FlexComponents.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -317,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="42" column="70" lean-forward="true" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
+              <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -336,7 +157,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/ssd/git/saciEtiquetas" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -824,10 +645,10 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3666243058" />
-        <entry key="$PROJECT_DIR$" value="6136293493000" />
+        <entry key="$PROJECT_DIR$" value="6136295777000" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="3529724006" />
         <entry key="$USER_HOME$/ssd/git/saciEtiquetas/.gradle" value="0" />
-        <entry key="$USER_HOME$/ssd/git/saciEtiquetas/build.gradle" value="590663822" />
+        <entry key="$USER_HOME$/ssd/git/saciEtiquetas/build.gradle" value="679417560" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1110,9 +931,9 @@
         <option value="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/LayoutView.kt" />
         <option value="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/Session.kt" />
         <option value="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/MessageDialog.kt" />
-        <option value="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/DialogPopup.kt" />
         <option value="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/CrudLayoutView.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/DialogPopup.kt" />
       </list>
     </option>
   </component>
@@ -1291,28 +1112,20 @@
             <path>
               <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.vaadin:flow-server:1.0.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="Gradle: com.github.vok.karibudsl:karibu-dsl-v10:0.4.6" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.vaadin:flow-server:1.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="flow-server-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: com.github.vok.karibudsl:karibu-dsl-v10:0.4.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="karibu-dsl-v10-0.4.6.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.vaadin:flow-server:1.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="flow-server-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: com.github.vok.karibudsl:karibu-dsl-v10:0.4.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="karibu-dsl-v10-0.4.6.jar" type="462c0819:PsiDirectoryNode" />
               <item name="flow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.vaadin:flow-server:1.0.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="flow-server-1.0.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="flow" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1323,7 +1136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534925610603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534925780665" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1459,16 +1272,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534894778342</updated>
-      <workItem from="1534894780589" duration="7730000" />
+      <workItem from="1534894780589" duration="8080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7730000" />
+    <option name="totallyTimeSpent" value="8080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -1476,11 +1288,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32903227" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32903227" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -1491,7 +1303,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1742,17 +1554,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/DialogPopup.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-762">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="42" column="70" lean-forward="true" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
+          <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.vok.karibudsl/karibu-dsl-v10/0.4.6/627845ab22ee400b3c0976c01b552dd3d3711c1f/karibu-dsl-v10-0.4.6-sources.jar!/com/github/vok/karibudsl/flow/FlexComponents.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ssd/git/saciEtiquetas/src/main/kotlin/br/com/astrosoft/framework/view/DialogPopup.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
         </state>
       </provider>
     </entry>
