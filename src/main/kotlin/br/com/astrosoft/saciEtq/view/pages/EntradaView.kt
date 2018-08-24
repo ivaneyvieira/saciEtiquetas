@@ -13,6 +13,7 @@ import br.com.astrosoft.saciEtq.model.Loja
 import br.com.astrosoft.saciEtq.view.EtiquetaUI
 import br.com.astrosoft.saciEtq.viewmodel.EntradaViewModel
 import br.com.astrosoft.saciEtq.viewmodel.EntradaVo
+import com.github.vok.karibudsl.AutoView
 import com.github.vok.karibudsl.bind
 import com.github.vok.karibudsl.comboBox
 import com.github.vok.karibudsl.dateField
@@ -27,6 +28,7 @@ import org.vaadin.crudui.crud.CrudOperation
 import org.vaadin.crudui.crud.CrudOperation.ADD
 import org.vaadin.crudui.crud.CrudOperation.UPDATE
 
+@AutoView("")
 class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
   val usuario = EtiquetaUI.user!!
   

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<migration xmlns="http://ebean-orm.github.io/xml/ns/dbmigration">
-    <changeSet type="apply">
-        <addColumn tableName="notas">
-            <column name="local_cd_id" type="bigint" references="locaisCD.id" foreignKeyName="fk_notas_local_cd_id" foreignKeyIndex="ix_notas_local_cd_id"/>
-        </addColumn>
-    </changeSet>
-</migration>

@@ -31,6 +31,7 @@ class QLocalCD : TQRootBean<LocalCD, QLocalCD> {
   lateinit var updatedAt: PLocalDateTime<QLocalCD>
   lateinit var version: PInteger<QLocalCD>
   lateinit var descricao: PString<QLocalCD>
+  lateinit var abreviada: PString<QLocalCD>
   lateinit var users: QAssocUsuario<QLocalCD>
 
 

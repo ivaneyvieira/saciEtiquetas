@@ -3,6 +3,7 @@ package br.com.astrosoft.saciEtq.model.query.assoc
 import br.com.astrosoft.saciEtq.model.Nota
 import br.com.astrosoft.saciEtq.model.TipoMov
 import br.com.astrosoft.saciEtq.model.query.QNota
+import io.ebean.typequery.PBoolean
 import io.ebean.typequery.PEnum
 import io.ebean.typequery.PInteger
 import io.ebean.typequery.PLocalDate
@@ -37,6 +38,10 @@ class QAssocNota<R>(name: String, root: R) : TQAssocBean<Nota,R>(name, root) {
   lateinit var un: PString<R>
   lateinit var tipoMov: PEnum<R,TipoMov>
   lateinit var localCD: QAssocLocalCD<R>
+  lateinit var quantidade: PInteger<R>
+  lateinit var cliente: PString<R>
+  lateinit var fornecedor: PString<R>
+  lateinit var impresso: PBoolean<R>
 
   // type safe fetch(properties) using varargs not supported yet ...
 }

@@ -2,6 +2,7 @@ package br.com.astrosoft.saciEtq.model
 
 import br.com.astrosoft.saciEtq.model.finder.LocalFinder
 import br.com.astrosoft.framework.model.BaseModel
+import io.ebean.annotation.Index
 import io.ebean.annotation.Length
 import javax.persistence.CascadeType.MERGE
 import javax.persistence.CascadeType.PERSIST
@@ -12,6 +13,7 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "locais")
+@Index(columnNames = ["loja_id", "local_cd_id"], unique = true)
 class Local : BaseModel() {
   @ManyToOne(cascade = [PERSIST, MERGE, REFRESH])
   var loja: Loja? = null

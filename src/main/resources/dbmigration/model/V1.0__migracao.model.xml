@@ -4,17 +4,18 @@
         <createTable name="locais" identityType="identity" pkName="pk_locais">
             <column name="id" type="bigint" primaryKey="true"/>
             <column name="loja_id" type="bigint" references="lojas.id" foreignKeyName="fk_locais_loja_id" foreignKeyIndex="ix_locais_loja_id"/>
-            <column name="local_cd_id" type="bigint" references="locaisCD.id" foreignKeyName="fk_locais_local_cd_id" foreignKeyIndex="ix_locais_local_cd_id"/>
+            <column name="local_cd_id" type="bigint" references="locaiscd.id" foreignKeyName="fk_locais_local_cd_id" foreignKeyIndex="ix_locais_local_cd_id"/>
             <column name="created_at" type="timestamp" notnull="true"/>
             <column name="updated_at" type="timestamp" notnull="true"/>
             <column name="version" type="integer" notnull="true"/>
         </createTable>
-        <createTable name="locaisCD" identityType="identity" pkName="pk_locaiscd">
+        <createTable name="locaiscd" identityType="identity" pkName="pk_locaiscd">
             <column name="id" type="bigint" primaryKey="true"/>
             <column name="descricao" type="varchar(30)" notnull="true"/>
             <column name="created_at" type="timestamp" notnull="true"/>
             <column name="updated_at" type="timestamp" notnull="true"/>
             <column name="version" type="integer" notnull="true"/>
+            <uniqueConstraint name="uq_locaiscd_descricao" columnNames="descricao" oneToOne="false" nullableColumns=""/>
         </createTable>
         <createTable name="lojas" identityType="identity" pkName="pk_lojas">
             <column name="id" type="bigint" primaryKey="true"/>
@@ -37,10 +38,16 @@
             <column name="grade" type="varchar(8)" notnull="true"/>
             <column name="name" type="varchar(40)" notnull="true"/>
             <column name="un" type="varchar(4)" notnull="true"/>
-            <column name="loc" type="varchar(30)" notnull="true"/>
+            <column name="tipo_mov" type="varchar(7)" notnull="true" checkConstraint="check ( tipo_mov in ('ENTRADA','SAIDA'))" checkConstraintName="ck_notas_tipo_mov"/>
+            <column name="local_cd_id" type="bigint" references="locaiscd.id" foreignKeyName="fk_notas_local_cd_id" foreignKeyIndex="ix_notas_local_cd_id"/>
+            <column name="quantidade" type="integer" notnull="true"/>
+            <column name="cliente" type="varchar" notnull="true"/>
+            <column name="fornecedor" type="varchar" notnull="true"/>
+            <column name="impresso" type="boolean" defaultValue="false" notnull="true"/>
             <column name="created_at" type="timestamp" notnull="true"/>
             <column name="updated_at" type="timestamp" notnull="true"/>
             <column name="version" type="integer" notnull="true"/>
+            <uniqueConstraint name="uq_notas_loja_id_nota" columnNames="loja_id,nota" oneToOne="false" nullableColumns="loja_id"/>
         </createTable>
         <createTable name="usuarios" identityType="identity" pkName="pk_usuarios">
             <column name="id" type="bigint" primaryKey="true"/>
@@ -51,6 +58,12 @@
             <column name="updated_at" type="timestamp" notnull="true"/>
             <column name="version" type="integer" notnull="true"/>
             <uniqueConstraint name="uq_usuarios_login_name" columnNames="login_name" oneToOne="false" nullableColumns=""/>
+        </createTable>
+        <createTable name="users_locais" pkName="pk_users_locais">
+            <column name="usuarios_id" type="bigint" notnull="true" primaryKey="true"/>
+            <column name="locaiscd_id" type="bigint" notnull="true" primaryKey="true"/>
+            <foreignKey name="fk_users_locais_usuarios" columnNames="usuarios_id" refColumnNames="id" refTableName="usuarios" indexName="ix_users_locais_usuarios"/>
+            <foreignKey name="fk_users_locais_locaiscd" columnNames="locaiscd_id" refColumnNames="id" refTableName="locaiscd" indexName="ix_users_locais_locaiscd"/>
         </createTable>
     </changeSet>
 </migration>

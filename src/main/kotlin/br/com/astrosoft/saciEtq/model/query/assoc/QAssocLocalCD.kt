@@ -23,6 +23,7 @@ class QAssocLocalCD<R>(name: String, root: R) : TQAssocBean<LocalCD,R>(name, roo
   lateinit var updatedAt: PLocalDateTime<R>
   lateinit var version: PInteger<R>
   lateinit var descricao: PString<R>
+  lateinit var abreviada: PString<R>
   lateinit var users: QAssocUsuario<R>
 
   // type safe fetch(properties) using varargs not supported yet ...

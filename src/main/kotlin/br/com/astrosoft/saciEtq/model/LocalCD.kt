@@ -3,6 +3,7 @@ package br.com.astrosoft.saciEtq.model
 import br.com.astrosoft.framework.model.BaseModel
 import br.com.astrosoft.saciEtq.model.finder.LocalCDFinder
 import io.ebean.annotation.Formula
+import io.ebean.annotation.Index
 import io.ebean.annotation.Length
 import javax.persistence.CascadeType.MERGE
 import javax.persistence.CascadeType.PERSIST
@@ -12,11 +13,12 @@ import javax.persistence.ManyToMany
 import javax.persistence.Table
 
 @Entity
-@Table(name = "locaisCD")
+@Table(name = "locaiscd")
 class LocalCD : BaseModel() {
 
   companion object Find : LocalCDFinder()
   @Length(30)
+  @Index(unique = true)
   var descricao: String = ""
   @Formula(select = "SUBSTRING_INDEX(IFNULL(descricao, ''), '.', 1)")
   var abreviada: String =""

@@ -9,6 +9,7 @@ import br.com.astrosoft.saciEtq.model.Loja
 import br.com.astrosoft.saciEtq.view.EtiquetaUI
 import br.com.astrosoft.saciEtq.viewmodel.UsuarioCrudVo
 import br.com.astrosoft.saciEtq.viewmodel.UsuarioViewModel
+import com.github.vok.karibudsl.AutoView
 import com.github.vok.karibudsl.bind
 import com.github.vok.karibudsl.comboBox
 import com.github.vok.karibudsl.expandRatio
@@ -19,6 +20,7 @@ import com.vaadin.ui.VerticalLayout
 import com.vaadin.ui.renderers.TextRenderer
 import org.vaadin.crudui.crud.CrudOperation
 
+@AutoView("usuario")
 class UsuarioView() : CrudLayoutView<UsuarioCrudVo, UsuarioViewModel>() {
   val usuario = EtiquetaUI.user!!
   
@@ -42,7 +44,7 @@ class UsuarioView() : CrudLayoutView<UsuarioCrudVo, UsuarioViewModel>() {
           expandRatio = 4f
           caption = "Nome"
           isReadOnly = true
-          bind(binder).bind(UsuarioCrudVo::nome.name)
+          bind(binder).bind(UsuarioCrudVo::nome)
         }
       }
       row {
