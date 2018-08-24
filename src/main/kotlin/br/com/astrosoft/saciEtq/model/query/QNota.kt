@@ -1,8 +1,11 @@
 package br.com.astrosoft.saciEtq.model.query
 
 import br.com.astrosoft.saciEtq.model.Nota
+import br.com.astrosoft.saciEtq.model.TipoMov
+import br.com.astrosoft.saciEtq.model.query.assoc.QAssocLocalCD
 import br.com.astrosoft.saciEtq.model.query.assoc.QAssocLoja
 import io.ebean.EbeanServer
+import io.ebean.typequery.PEnum
 import io.ebean.typequery.PInteger
 import io.ebean.typequery.PLocalDate
 import io.ebean.typequery.PLocalDateTime
@@ -41,7 +44,8 @@ class QNota : TQRootBean<Nota, QNota> {
   lateinit var grade: PString<QNota>
   lateinit var name: PString<QNota>
   lateinit var un: PString<QNota>
-  lateinit var loc: PString<QNota>
+  lateinit var tipoMov: PEnum<QNota,TipoMov>
+  lateinit var localCD: QAssocLocalCD<QNota>
 
 
   /**

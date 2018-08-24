@@ -2,11 +2,20 @@
 create table locais (
   id                            bigint auto_increment not null,
   loja_id                       bigint,
-  localizacao                   varchar(30) not null,
+  local_cd_id                   bigint,
   created_at                    datetime(6) not null,
   updated_at                    datetime(6) not null,
   version                       integer not null,
   constraint pk_locais primary key (id)
+);
+
+create table locaiscd (
+  id                            bigint auto_increment not null,
+  descricao                     varchar(30) not null,
+  created_at                    datetime(6) not null,
+  updated_at                    datetime(6) not null,
+  version                       integer not null,
+  constraint pk_locaiscd primary key (id)
 );
 
 create table lojas (
@@ -42,9 +51,7 @@ create table notas (
 create table usuarios (
   id                            bigint auto_increment not null,
   login_name                    varchar(8) not null,
-  impressora                    varchar(30) not null,
   loja_id                       bigint,
-  localizacaoes                 varchar(4000) not null,
   nome                          varchar(50) not null,
   created_at                    datetime(6) not null,
   updated_at                    datetime(6) not null,
@@ -55,6 +62,9 @@ create table usuarios (
 
 create index ix_locais_loja_id on locais (loja_id);
 alter table locais add constraint fk_locais_loja_id foreign key (loja_id) references lojas (id) on delete restrict on update restrict;
+
+create index ix_locais_local_cd_id on locais (local_cd_id);
+alter table locais add constraint fk_locais_local_cd_id foreign key (local_cd_id) references locaiscd (id) on delete restrict on update restrict;
 
 create index ix_notas_loja_id on notas (loja_id);
 alter table notas add constraint fk_notas_loja_id foreign key (loja_id) references lojas (id) on delete restrict on update restrict;

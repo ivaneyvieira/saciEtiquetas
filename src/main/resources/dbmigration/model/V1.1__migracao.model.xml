@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<migration xmlns="http://ebean-orm.github.io/xml/ns/dbmigration">
+    <changeSet type="apply">
+        <createTable name="users_locais" pkName="pk_users_locais">
+            <column name="usuarios_id" type="bigint" notnull="true" primaryKey="true"/>
+            <column name="locais_cd_id" type="bigint" notnull="true" primaryKey="true"/>
+            <foreignKey name="fk_users_locais_usuarios" columnNames="usuarios_id" refColumnNames="id" refTableName="usuarios" indexName="ix_users_locais_usuarios"/>
+            <foreignKey name="fk_users_locais_locaiscd" columnNames="locais_cd_id" refColumnNames="id" refTableName="locaisCD" indexName="ix_users_locais_locaiscd"/>
+        </createTable>
+    </changeSet>
+</migration>

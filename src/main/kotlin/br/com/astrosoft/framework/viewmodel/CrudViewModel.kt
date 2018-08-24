@@ -11,9 +11,17 @@ abstract class CrudViewModel<MODEL : BaseModel, Q : TQRootBean<MODEL, Q>, VO : E
   var crudBean: VO? = null
   override fun execUpdate() {}
   
-  abstract fun update(bean: VO)
-  abstract fun add(bean: VO)
-  abstract fun delete(bean: VO)
+  fun update(bean: VO) {
+    bean.toModel().update()
+  }
+  
+  fun add(bean: VO) {
+    bean.toModel().insert()
+  }
+  
+  fun delete(bean: VO) {
+    bean.toModel().delete()
+  }
   
   fun update() = exec {
     crudBean?.let { bean -> update(bean) }
@@ -32,6 +40,8 @@ abstract class CrudViewModel<MODEL : BaseModel, Q : TQRootBean<MODEL, Q>, VO : E
   abstract val query: Q
   
   abstract fun MODEL.toVO(): VO
+  
+  abstract fun VO.toModel(): MODEL
   
   open fun Q.filterString(text: String): Q {
     return this
@@ -86,7 +96,7 @@ abstract class CrudViewModel<MODEL : BaseModel, Q : TQRootBean<MODEL, Q>, VO : E
             .setMaxRows(limit)
             .makeSort(sorts)
             .findList()
-            .map { model->
+            .map { model ->
               model.toVO().apply {
                 entityVo = model
               }

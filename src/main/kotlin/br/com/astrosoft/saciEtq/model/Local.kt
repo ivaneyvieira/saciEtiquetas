@@ -13,10 +13,10 @@ import javax.persistence.Table
 @Entity
 @Table(name = "locais")
 class Local : BaseModel() {
-
-  companion object Find : LocalFinder()
   @ManyToOne(cascade = [PERSIST, MERGE, REFRESH])
   var loja: Loja? = null
-  @Length(30)
-  var localizacao : String = ""
+  @ManyToOne(cascade = [PERSIST, MERGE, REFRESH])
+  var localCD: LocalCD? = null
+  
+  companion object Find : LocalFinder()
 }

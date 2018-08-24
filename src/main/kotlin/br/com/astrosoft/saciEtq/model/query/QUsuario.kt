@@ -1,6 +1,7 @@
 package br.com.astrosoft.saciEtq.model.query
 
 import br.com.astrosoft.saciEtq.model.Usuario
+import br.com.astrosoft.saciEtq.model.query.assoc.QAssocLocalCD
 import br.com.astrosoft.saciEtq.model.query.assoc.QAssocLoja
 import io.ebean.EbeanServer
 import io.ebean.typequery.PBoolean
@@ -32,9 +33,8 @@ class QUsuario : TQRootBean<Usuario, QUsuario> {
   lateinit var updatedAt: PLocalDateTime<QUsuario>
   lateinit var version: PInteger<QUsuario>
   lateinit var loginName: PString<QUsuario>
-  lateinit var impressora: PString<QUsuario>
   lateinit var loja: QAssocLoja<QUsuario>
-  lateinit var localizacaoes: PString<QUsuario>
+  lateinit var locais: QAssocLocalCD<QUsuario>
   lateinit var nome: PString<QUsuario>
   lateinit var admin: PBoolean<QUsuario>
 
