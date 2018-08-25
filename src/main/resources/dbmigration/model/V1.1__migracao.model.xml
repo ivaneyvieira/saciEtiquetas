@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<migration xmlns="http://ebean-orm.github.io/xml/ns/dbmigration">
+    <changeSet type="apply">
+        <addUniqueConstraint constraintName="uq_locais_loja_id_local_cd_id" tableName="locais" columnNames="loja_id,local_cd_id" nullableColumns="loja_id,local_cd_id" oneToOne="false"/>
+    </changeSet>
+</migration>
