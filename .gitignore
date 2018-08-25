@@ -85,7 +85,7 @@ cmake-build-*/
 *.iws
 
 # IntelliJ
-out/
+out
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -105,3 +105,11 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+src/main/resources/db/
+src/main/webapp/VAADIN/gwt-unitCache/
+src/main/webapp/VAADIN/themes/mytheme/addons.scss
+src/main/webapp/VAADIN/themes/mytheme/styles.css
+src/main/webapp/VAADIN/themes/mytheme/styles.css.gz
+src/main/webapp/VAADIN/widgetsets/
+.idea/
+.gradle/
