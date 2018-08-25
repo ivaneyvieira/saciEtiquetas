@@ -4,6 +4,7 @@ import br.com.astrosoft.saciEtq.model.Nota
 import br.com.astrosoft.saciEtq.model.TipoMov
 import br.com.astrosoft.saciEtq.model.query.assoc.QAssocLocalCD
 import br.com.astrosoft.saciEtq.model.query.assoc.QAssocLoja
+import br.com.astrosoft.saciEtq.model.query.assoc.QAssocUsuario
 import io.ebean.EbeanServer
 import io.ebean.typequery.PBoolean
 import io.ebean.typequery.PEnum
@@ -47,10 +48,12 @@ class QNota : TQRootBean<Nota, QNota> {
   lateinit var un: PString<QNota>
   lateinit var tipoMov: PEnum<QNota,TipoMov>
   lateinit var localCD: QAssocLocalCD<QNota>
+  lateinit var usuario: QAssocUsuario<QNota>
   lateinit var quantidade: PInteger<QNota>
   lateinit var cliente: PString<QNota>
   lateinit var fornecedor: PString<QNota>
   lateinit var impresso: PBoolean<QNota>
+  lateinit var observacao: PString<QNota>
 
 
   /**

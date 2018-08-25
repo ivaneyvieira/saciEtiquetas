@@ -1,6 +1,9 @@
 package br.com.astrosoft.saciEtq.model
 
 import br.com.astrosoft.framework.model.BaseModel
+import br.com.astrosoft.framework.saci.beans.NotaEntradaSaci
+import br.com.astrosoft.framework.saci.beans.NotaSaidaSaci
+import br.com.astrosoft.framework.saci.saci
 import br.com.astrosoft.saciEtq.model.TipoMov.ENTRADA
 import br.com.astrosoft.saciEtq.model.TipoMov.SAIDA
 import br.com.astrosoft.saciEtq.model.finder.NotaFinder
@@ -40,13 +43,18 @@ class Nota : BaseModel() {
   var tipoMov: TipoMov = TipoMov.ENTRADA
   @ManyToOne(cascade = [CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH])
   var localCD: LocalCD? = null
-  var quantidade : Int = 0
-  var cliente : String = ""
-  var fornecedor : String = ""
-  var impresso : Boolean = false
+  @ManyToOne(cascade = [CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH])
+  var usuario: Usuario? = null
+  var quantidade: Int = 0
+  var cliente: String = ""
+  var fornecedor: String = ""
+  var impresso: Boolean = false
+  @Length(100)
+  var observacao: String = ""
   
   companion object Find : NotaFinder() {
-    fun findNotaEntrada(loja: Loja?, nota: String): Nota? {
+    fun findNotaEntrada(loja: Loja?, nota: String?): Nota? {
+      nota ?: return null
       loja ?: return null
       return where().nota.eq(nota)
               .tipoMov.eq(ENTRADA)
@@ -60,6 +68,22 @@ class Nota : BaseModel() {
               .tipoMov.eq(SAIDA)
               .loja.id.eq(loja.id)
               .findOne()
+    }
+    
+    fun findNotaEntradaSaci(numeroNF: String?, lojaNF: Loja?): List<NotaEntradaSaci> {
+      numeroNF ?: return emptyList()
+      lojaNF ?: return emptyList()
+      val numero = numeroNF.split("/").getOrNull(0) ?: return emptyList()
+      val serie = numeroNF.split("/").getOrNull(1) ?: ""
+      return saci.findNotaEntrada(lojaNF.numero, numero, serie)
+    }
+    
+    fun findNotaSaidaSaci(numeroNF: String?, lojaNF: Loja?): List<NotaSaidaSaci> {
+      numeroNF ?: return emptyList()
+      lojaNF ?: return emptyList()
+      val numero = numeroNF.split("/").getOrNull(0) ?: return emptyList()
+      val serie = numeroNF.split("/").getOrNull(1) ?: ""
+      return saci.findNotaSaida(lojaNF.numero, numero, serie)
     }
   }
 }

@@ -12,7 +12,8 @@ class NotaSaidaSaci(
         val quant : Int?,
         val clienteName : String?,
         val tipo: String?,
-        val localizacao : String?
-                   ){
-  val invalida = (tipo == null) || (tipo == "INVALIDA")
-}
+        val localizacao : String?,
+        val observacao: String?,
+        val descricao : String?,
+        val un: String?
+                   )

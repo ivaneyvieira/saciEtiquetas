@@ -37,7 +37,6 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
                          ) {
     if (operation == ADD) {
       binder.bean.loja = usuario.loja
-      binder.bean.usuario = usuario
     }
     formLayout.apply {
       grupo("Nota fiscal de entrada") {
@@ -72,6 +71,7 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
         row {
           textField("Observação") {
             expandRatio = 2f
+            isReadOnly = true
             bind(binder).bind(EntradaVo::observacao)
           }
         }
@@ -87,34 +87,6 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
             bind(binder).bind(EntradaVo::fornecedor)
           }
         }
-        
-      }
-      
-      grupo("Produto") {
-        row {
-          textField("Código") {
-            expandRatio = 2f
-            isReadOnly = operation != ADD
-            bind(binder).bind(EntradaVo::prdno)
-            reloadBinderOnChange(binder)
-          }
-          textField("Descrição") {
-            expandRatio = 5f
-            isReadOnly = true
-            bind(binder).bind(EntradaVo::name)
-          }
-          textField("Grade") {
-            expandRatio = 1f
-            isReadOnly = true
-            bind(binder).bind(EntradaVo::grade)
-          }
-          integerField("Qtd Entrada") {
-            expandRatio = 1f
-            isReadOnly = true
-            this.bind(binder)
-                    .bind(EntradaVo::quantidade)
-          }
-        }
       }
     }
   }
@@ -125,7 +97,7 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
         column(EntradaVo::nota) {
           //isSortable = true
           caption = "Número NF"
-          setSortProperty("nota.numero")
+          setSortProperty("nota")
         }
         grid.addComponentColumn { item ->
           val button = Button()
@@ -148,30 +120,34 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
         column(EntradaVo::loja) {
           caption = "Loja NF"
           setRenderer({ loja -> loja?.sigla ?: "" }, TextRenderer())
+          setSortProperty("loja.sigla")
         }
         column(EntradaVo::data) {
           caption = "Data Nota"
           dateFormat()
           
-          setSortProperty("nota.data", "data", "hora")
+          setSortProperty("data")
         }
         column(EntradaVo::quantidade) {
           caption = "Quantidade"
           intFormat()
+          setSortProperty("quantidade")
         }
         column(EntradaVo::prdno) {
           caption = "Código"
-          setSortProperty("produto.codigo")
+          setSortProperty("prdno")
         }
         column(EntradaVo::name) {
           caption = "Descrição"
+          setSortProperty("name")
         }
         column(EntradaVo::grade) {
           caption = "Grade"
-          setSortProperty("produto.grade")
+          setSortProperty("grade")
         }
         column(EntradaVo::localizacao) {
           caption = "Local"
+          setSortProperty("localCD.descricao")
         }
         column(EntradaVo::usuario) {
           caption = "Usuário"
@@ -183,7 +159,7 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
         }
         column(EntradaVo::fornecedor) {
           caption = "Fornecedor"
-          setSortProperty("nota.fornecedor")
+          setSortProperty("fornecedor")
         }
       }
     }

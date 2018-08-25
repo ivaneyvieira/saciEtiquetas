@@ -15,7 +15,7 @@ abstract class CrudViewModel<MODEL : BaseModel, Q : TQRootBean<MODEL, Q>, VO : E
     bean.toModel().update()
   }
   
-  fun add(bean: VO) {
+  open fun add(bean: VO) {
     bean.toModel().insert()
   }
   

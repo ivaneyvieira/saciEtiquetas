@@ -6,7 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8a0b0b3-ca79-4a45-aad4-e1262cd87bdc" name="Default Changelist" comment="" />
+    <list default="true" id="d8a0b0b3-ca79-4a45-aad4-e1262cd87bdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaEntradaSaci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaEntradaSaci.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaSaidaSaci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaSaidaSaci.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Nota.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Nota.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/QNota.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/QNota.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/assoc/QAssocNota.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/assoc/QAssocNota.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaEntrada.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaEntrada.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaSaida.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaSaida.sql" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,40 +65,41 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="2606" />
+          <entry key="Kotlin" value="3651" />
           <entry key="Manifest" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="10" />
-          <entry key="SQL" value="10" />
+          <entry key="SQL" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="kt" value="67" />
+          <entry key="kt" value="83" />
           <entry key="mf" value="2" />
           <entry key="properties" value="2" />
           <entry key="scss" value="1" />
-          <entry key="sql" value="12" />
+          <entry key="sql" value="18" />
           <entry key="txt" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="2606" />
+          <entry key="kt" value="3651" />
           <entry key="mf" value="4" />
           <entry key="properties" value="10" />
-          <entry key="sql" value="10" />
+          <entry key="sql" value="77" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -89,12 +108,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Kotlin" value="67" />
+          <entry key="Kotlin" value="83" />
           <entry key="Manifest" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="2" />
           <entry key="SCSS" value="1" />
-          <entry key="SQL" value="12" />
+          <entry key="SQL" value="18" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -109,25 +128,52 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/ConnectionFilter.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="139">
+              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Nota.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Local.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaEntrada.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="95">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaSaida.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -135,65 +181,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="402">
+              <caret line="147" column="37" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaView.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaEntradaSaci.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-              <folding>
-                <element signature="e#45#1161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/utils/SystemUtils.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/EtiquetaUI.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/versao.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="209">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -206,6 +204,12 @@
         <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>usu</find>
+      <find>auxShort13</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1290,29 +1294,29 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/LocalCD.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Usuario.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/LojaSaci.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaSaidaSaci.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/PrdLoc.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/UserSaci.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/QueryDB.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/QuerySaci.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/LoginService.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/view/CrudLayoutView.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/EstoqueUI.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/EtiquetaUI.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaSaida.sql" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaEntradaSaci.kt" />
-        <option value="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaEntrada.sql" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Nota.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/UsuarioViewModel.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/SaidaViewModel.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/versao.txt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Local.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaView.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaSaida.sql" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaEntradaSaci.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaSaidaSaci.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaEntrada.sql" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Nota.kt" />
       </list>
     </option>
   </component>
@@ -1347,9 +1351,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1392,16 +1394,114 @@
               <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="saci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="saci" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
+              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlSaci" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535143826766" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535213920914" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1558,8 +1658,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainDbMigration" />
         <item itemvalue="Kotlin.MainQueryBeanGenerator" />
+        <item itemvalue="Kotlin.MainDbMigration" />
       </list>
     </recent_temporary>
   </component>
@@ -1578,11 +1678,12 @@
       <workItem from="1535108627388" duration="300000" />
       <workItem from="1535115278379" duration="3590000" />
       <workItem from="1535120300542" duration="15278000" />
+      <workItem from="1535195395701" duration="7845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27599000" />
+    <option name="totallyTimeSpent" value="35444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1596,7 +1697,7 @@
   <component name="ToolWindowManager">
     <frame x="1360" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16613248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16773504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1607,13 +1708,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32837406" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34218916" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34218916" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32837406" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3052464" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33156216" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33121693" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -1641,6 +1742,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="ebeanEnhancement">
     <option name="enabled" value="true" />
@@ -1700,16 +1813,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaSaidaSaci.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/ProdutoSaci.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/ProdutoSaci.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/PrdLoc.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1734,16 +1838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/QuerySaci.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-          <folding>
-            <element signature="e#41#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/utils/DB.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1758,13 +1852,6 @@
           <folding>
             <element signature="e#39#897#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1786,15 +1873,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="e#40#443#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.3__migracao.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.3__migracao.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/QNota.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1802,53 +1884,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.4__migracao.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.4__migracao.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/sqlSaci/findLoc.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaEntradaSaci.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaSaida.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaEntrada.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Nota.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="78" selection-start-line="76" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/SaidaViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/UsuarioViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1871,23 +1909,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.5__migracao.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.6__migracao.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/model/ConnectionFilter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="342">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Local.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/utils/SystemUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="1539">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/EtiquetaUI.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="266">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
@@ -1899,9 +1954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1909,51 +1961,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.5__migracao.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="468">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbmigration/V1.6__migracao.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/SaidaViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/QuerySaci.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#41#311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Local.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaSaidaSaci.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="323">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/viewmodel/CrudViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="402">
+          <caret line="147" column="37" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaView.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/framework/saci/beans/NotaEntradaSaci.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="e#45#1161#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaSaida.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="209">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlSaci/findNotaEntrada.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/viewmodel/EntradaViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Nota.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
         </state>
       </provider>
     </entry>

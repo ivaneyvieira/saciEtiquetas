@@ -8,7 +8,8 @@ select CAST(IFNULL(X.xrouteno, '') AS CHAR) as rota, N.storeno,
     WHEN tipo = 1 then 'TRANSFERENCIA_S'
     WHEN tipo = 2 then 'DEV_FOR'
     ELSE 'INVALIDA'
-  END AS tipo, localizacao, IFNULL(S.qtty_varejo/1000, 0) as saldo
+  END AS tipo, localizacao, IFNULL(S.qtty_varejo/1000, 0) as saldo,
+  MID(N.remarks, 1, 100) as observacao
 from sqldados.nf AS N
   inner join sqldados.xaprd AS P
   USING(storeno, pdvno, xano)

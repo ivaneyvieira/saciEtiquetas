@@ -8,7 +8,8 @@ select CAST(IFNULL(X.xrouteno, '') AS CHAR) as rota, N.storeno, nfname as nfno, 
     WHEN type = 10 AND N.remarks LIKE 'DEV%' then "DEV_CLI"
     ELSE "INVALIDA"
   END AS tipo,
-  L.localizacao AS localizacao, IFNULL(S.qtty_varejo/1000, 0) as saldo
+  L.localizacao AS localizacao, IFNULL(S.qtty_varejo/1000, 0) as saldo,
+  MID(N.remarks, 1, 100) as observacao, MID(PD.name, 1, 37) as descricao, MID(PD.name, 38, 3) as un
 from sqldados.inv AS N
   inner join sqldados.iprd AS P
   USING(invno)
@@ -16,6 +17,8 @@ from sqldados.inv AS N
     ON V.no = N.vendno
   left join sqldados.xfr AS X
     ON X.no = N.xfrno
+  left join sqldados.prd AS PD
+    ON PD.no = P.prdno
   inner join sqldados.prdloc AS L
     ON N.storeno = L.storeno
     AND P.prdno = L.prdno

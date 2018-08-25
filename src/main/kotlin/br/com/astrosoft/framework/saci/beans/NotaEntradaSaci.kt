@@ -9,8 +9,11 @@ class NotaEntradaSaci(
         val prdno: String?,
         val grade: String?,
         val quant: Int?,
-        val clienteName: String?,
+        val vendName: String?,
         val tipo: String?,
         val localizacao: String?,
-        val saldo: Int?
+        val saldo: Int?,
+        val observacao: String?,
+        val descricao : String?,
+        val un: String?
                      )
