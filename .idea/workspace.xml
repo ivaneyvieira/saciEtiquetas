@@ -6,35 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8a0b0b3-ca79-4a45-aad4-e1262cd87bdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Local.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/Local.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/LocalCD.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/QLocalCD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/QLocalCD.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/QNota.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/QNota.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/assoc/QAssocLocalCD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/assoc/QAssocLocalCD.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/assoc/QAssocNota.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/model/query/assoc/QAssocNota.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/SaidaView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/I__create_procs.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/V1.0__migracao.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/V1.1__migracao.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/V1.2__migracao.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/V1.3__migracao.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/V1.4__migracao.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/model/V1.0__migracao.model.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/model/V1.1__migracao.model.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/model/V1.2__migracao.model.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/model/V1.3__migracao.model.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbmigration/model/V1.4__migracao.model.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="d8a0b0b3-ca79-4a45-aad4-e1262cd87bdc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,7 +42,7 @@
     <session id="-1198890973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -164,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -184,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="468">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -1420,188 +1392,6 @@
               <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="saci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="saci" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="finder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="astrosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="saciEtq" type="462c0819:PsiDirectoryNode" />
-              <item name="viewmodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dbmigration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saciEtiquetas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saciEtiquetas" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="VAADIN" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="mytheme" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1611,7 +1401,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535143373996" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535143826766" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1787,12 +1577,12 @@
       <workItem from="1535033646599" duration="7685000" />
       <workItem from="1535108627388" duration="300000" />
       <workItem from="1535115278379" duration="3590000" />
-      <workItem from="1535120300542" duration="14722000" />
+      <workItem from="1535120300542" duration="15278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27043000" />
+    <option name="totallyTimeSpent" value="27599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1805,9 +1595,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1360" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16613248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16613248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1818,20 +1607,20 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32837406" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5132837" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34218916" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32837406" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3052464" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33156216" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33156216" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3290938" />
-      <window_info anchor="bottom" id="Messages" order="16" visible="true" weight="0.32837406" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32837406" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2147,7 +1936,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/EntradaView.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -2163,8 +1952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/astrosoft/saciEtq/view/pages/UsuarioView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="468">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
         </state>
       </provider>
     </entry>
