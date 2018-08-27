@@ -50,8 +50,7 @@ class QNota : TQRootBean<Nota, QNota> {
   lateinit var localCD: QAssocLocalCD<QNota>
   lateinit var usuario: QAssocUsuario<QNota>
   lateinit var quantidade: PInteger<QNota>
-  lateinit var cliente: PString<QNota>
-  lateinit var fornecedor: PString<QNota>
+  lateinit var clifor: PString<QNota>
   lateinit var impresso: PBoolean<QNota>
   lateinit var observacao: PString<QNota>
 

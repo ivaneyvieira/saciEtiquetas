@@ -29,8 +29,8 @@ import org.vaadin.crudui.crud.CrudOperation.ADD
 import org.vaadin.crudui.crud.CrudOperation.UPDATE
 
 @AutoView("")
-class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
-  val usuario = EtiquetaUI.user!!
+class EntradaView : NotaView<EntradaVo, EntradaViewModel>() {
+  
   
   override fun layoutForm(
           formLayout: VerticalLayout, operation: CrudOperation?, binder: Binder<EntradaVo>, readOnly: Boolean
@@ -84,7 +84,7 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
           textField("Fornecedor") {
             expandRatio = 3f
             isReadOnly = true
-            bind(binder).bind(EntradaVo::fornecedor)
+            bind(binder).bind(EntradaVo::clifor)
           }
         }
       }
@@ -139,6 +139,7 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
         }
         column(EntradaVo::name) {
           caption = "Descrição"
+          expandRatio = 1
           setSortProperty("name")
         }
         column(EntradaVo::grade) {
@@ -157,7 +158,7 @@ class EntradaView : CrudLayoutView<EntradaVo, EntradaViewModel>() {
         column(EntradaVo::rota) {
           caption = "Rota"
         }
-        column(EntradaVo::fornecedor) {
+        column(EntradaVo::clifor) {
           caption = "Fornecedor"
           setSortProperty("fornecedor")
         }

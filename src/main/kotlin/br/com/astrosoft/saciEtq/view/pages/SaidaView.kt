@@ -28,9 +28,7 @@ import org.vaadin.crudui.crud.CrudOperation
 import org.vaadin.crudui.crud.CrudOperation.ADD
 
 @AutoView("saida")
-class SaidaView : CrudLayoutView<SaidaVo, SaidaViewModel>() {
-  val usuario = EtiquetaUI.user!!
-  
+class SaidaView : NotaView<SaidaVo, SaidaViewModel>() {
   override fun layoutForm(
           formLayout: VerticalLayout, operation: CrudOperation?, binder: Binder<SaidaVo>, readOnly: Boolean
                          ) {
@@ -80,35 +78,6 @@ class SaidaView : CrudLayoutView<SaidaVo, SaidaViewModel>() {
           }
         }
       }
-      grupo("Produto") {
-        verticalLayout {
-          row {
-            textField("Código") {
-              expandRatio = 2f
-              isReadOnly = operation != ADD
-            
-              bind(binder).bind(SaidaVo::prdno)
-            }
-            textField("Descrição") {
-              expandRatio = 5f
-              isReadOnly = true
-              bind(binder).bind(SaidaVo::name)
-            }
-            textField("Grade") {
-              expandRatio = 1f
-              isReadOnly = true
-              bind(binder).bind(SaidaVo::grade)
-            }
-            integerField("Qtd. Saída") {
-              expandRatio = 1f
-            
-              bind(binder)
-                      .bind(SaidaVo::quantidade)
-              reloadBinderOnChange(binder)
-            }
-          }
-        }
-      }
     }
   }
   
@@ -122,7 +91,7 @@ class SaidaView : CrudLayoutView<SaidaVo, SaidaViewModel>() {
         grid.addComponentColumn { item ->
           val button = Button()
           print {
-            val print = viewModel.imprimir(item.nota)
+            val print = viewModel.imprimir(item.entityVo)
             print
           }.extend(button)
           val impresso = item?.entityVo?.impresso ?: true
@@ -155,10 +124,11 @@ class SaidaView : CrudLayoutView<SaidaVo, SaidaViewModel>() {
         column(SaidaVo::name) {
           expandRatio = 1
           caption = "Descrição"
+          setSortProperty("name")
         }
         column(SaidaVo::grade) {
           caption = "Grade"
-          setSortProperty("name")
+          setSortProperty("grade")
         }
         column(SaidaVo::localizacao) {
           caption = "Localização"
@@ -171,7 +141,7 @@ class SaidaView : CrudLayoutView<SaidaVo, SaidaViewModel>() {
         column(SaidaVo::rota) {
           caption = "Rota"
         }
-        column(SaidaVo::cliente) {
+        column(SaidaVo::clifor) {
           caption = "Cliente"
           setSortProperty("nota.cliente")
         }
