@@ -9,16 +9,18 @@ import br.com.astrosoft.saciEtq.model.finder.NotaFinder
 import io.ebean.annotation.Index
 import io.ebean.annotation.Length
 import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import javax.persistence.CascadeType
 import javax.persistence.Entity
 import javax.persistence.EnumType
 import javax.persistence.Enumerated
 import javax.persistence.ManyToOne
 import javax.persistence.Table
+import kotlin.reflect.full.memberProperties
 
 @Entity
 @Table(name = "notas")
-@Index(columnNames = ["loja_id", "nota"], unique = true)
+@Index(columnNames = ["loja_id", "nota", "prdno", "grade"], unique = true)
 class Nota : BaseModel() {
   @ManyToOne(cascade = [CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH])
   var loja: Loja? = null
@@ -85,9 +87,33 @@ class Nota : BaseModel() {
       return saci.findNotaSaida(lojaNF.numero, numero, serie)
     }
   }
+  
+  fun printEtiqueta() = NotaPrint(this)
 }
 
 enum class TipoMov(val multiplicador: Int, val descricao: String) {
   ENTRADA(1, "Entrada"),
   SAIDA(-1, "Saida")
+}
+
+class NotaPrint(nota: Nota) {
+  val rota = nota.rota ?: ""
+  val nota = nota.nota ?: ""
+  val tipoNota = nota.tipoNota
+  
+  val data = nota.data.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) ?: ""
+  val sd = nota.saldo
+  val quant = nota.quantidade
+  val prdno = nota.prdno.trim()
+  val grade = nota.grade
+  val name = nota.name
+  val prdnoGrade = "$prdno${if (grade == "") "" else "-$grade"}"
+  val un = nota.un
+  val loc = nota.localCD?.descricao ?: ""
+  
+  fun print(template: String): String {
+    return NotaPrint::class.memberProperties.fold(template) { reduce, prop ->
+      reduce.replace("[${prop.name}]", "${prop.get(this)}")
+    }
+  }
 }

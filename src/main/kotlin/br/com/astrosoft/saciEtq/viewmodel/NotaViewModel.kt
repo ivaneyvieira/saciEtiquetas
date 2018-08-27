@@ -5,12 +5,14 @@ import br.com.astrosoft.framework.utils.localDate
 import br.com.astrosoft.framework.viewmodel.CrudViewModel
 import br.com.astrosoft.framework.viewmodel.EntityVo
 import br.com.astrosoft.framework.viewmodel.IView
+import br.com.astrosoft.saciEtq.model.Etiqueta
 import br.com.astrosoft.saciEtq.model.LocalCD
 import br.com.astrosoft.saciEtq.model.Loja
 import br.com.astrosoft.saciEtq.model.Nota
 import br.com.astrosoft.saciEtq.model.TipoMov
 import br.com.astrosoft.saciEtq.model.Usuario
 import br.com.astrosoft.saciEtq.model.query.QNota
+import br.com.astrosoft.saciEtq.view.EtiquetaUI.Companion.user
 import java.time.LocalDate
 import kotlin.reflect.KClass
 
@@ -37,8 +39,8 @@ abstract class NotaViewModel<NOTA : NotaVo>(
   
   override fun Nota.toVO(): NOTA {
     val nota = this
+    
     return createNota().apply {
-      this.usuario = this@NotaViewModel.usuario
       this.entityVo = nota
       this.loja = nota.loja
       this.rota = nota.rota
@@ -48,12 +50,16 @@ abstract class NotaViewModel<NOTA : NotaVo>(
       this.saldo = nota.saldo
       this.clifor = nota.clifor
       this.observacao = nota.observacao
+      this.usuario = nota.usuario
     }
   }
   
   override fun NOTA.toModel(): Nota {
     val nota = this
-    return Nota().apply {
+    val vo = entityVo ?: Nota()
+    val user = entityVo?.usuario ?: this@NotaViewModel.usuario
+    return vo.apply {
+      this.usuario = user
       this.loja = nota.loja
       this.rota = nota.rota ?: ""
       this.nota = nota.nota ?: ""
@@ -62,7 +68,7 @@ abstract class NotaViewModel<NOTA : NotaVo>(
       this.saldo = nota.saldo ?: 0
       this.clifor = nota.clifor ?: ""
       this.observacao = nota.observacao ?: ""
-      this.tipoMov =  this@NotaViewModel.tipoMov
+      this.tipoMov = this@NotaViewModel.tipoMov
     }
   }
   
@@ -84,8 +90,16 @@ abstract class NotaViewModel<NOTA : NotaVo>(
     }
   }
   
-  fun imprimir(nota: Nota?): String {
-    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+  fun imprimir(nota: Nota?) = execString {
+    val template = Etiqueta.where().tipoMov.eq(nota?.tipoMov).findOne()?.template
+    val print = nota?.printEtiqueta()
+    nota?.let {
+      if (!usuario.admin) {
+        it.impresso = true
+        it.save()
+      }
+    }
+    print?.print(template ?: "") ?: ""
   }
 }
 
@@ -109,14 +123,11 @@ abstract class NotaVo : EntityVo<Nota>() {
   var observacao: String? = ""
   val produtos = ArrayList<ProdutoVO>()
   
-  fun notasSaci(): List<NotaSaci> {
-    //TODO("Falta fazer o filtro de localizacaoes")
-    return Nota.findNotaEntradaSaci(nota, loja)
-  }
+  abstract fun notasSaci(): List<NotaSaci>
   
   fun atualiza() {
     if (entityVo == null) {
-      val notasSaci = notasSaci()
+      val notasSaci = notasSaci().filter { filtroLocalizacoes(it) }
       notasSaci.firstOrNull()?.let { notaSaci ->
         this.rota = notaSaci.rota ?: ""
         this.tipoNota = notaSaci.tipo ?: ""
@@ -138,6 +149,14 @@ abstract class NotaVo : EntityVo<Nota>() {
       }
       produtos.addAll(prds)
     }
+  }
+  
+  private fun filtroLocalizacoes(nota: NotaSaci): Boolean {
+    return usuario?.let { usuario ->
+      if (usuario.admin)
+        true
+      else usuario.locais.map { it.descricao }.contains(nota.localizacao)
+    } ?: false
   }
   
   val quantidade

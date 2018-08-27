@@ -4,10 +4,9 @@ import br.com.astrosoft.framework.view.CrudLayoutView
 import br.com.astrosoft.framework.view.bindItensSet
 import br.com.astrosoft.framework.view.reloadBinderOnChange
 import br.com.astrosoft.framework.view.row
-import br.com.astrosoft.saciEtq.model.LocalCD
 import br.com.astrosoft.saciEtq.model.Loja
 import br.com.astrosoft.saciEtq.view.EtiquetaUI
-import br.com.astrosoft.saciEtq.viewmodel.UsuarioCrudVo
+import br.com.astrosoft.saciEtq.viewmodel.UsuarioVo
 import br.com.astrosoft.saciEtq.viewmodel.UsuarioViewModel
 import com.github.vok.karibudsl.AutoView
 import com.github.vok.karibudsl.bind
@@ -21,21 +20,21 @@ import com.vaadin.ui.renderers.TextRenderer
 import org.vaadin.crudui.crud.CrudOperation
 
 @AutoView("usuario")
-class UsuarioView() : CrudLayoutView<UsuarioCrudVo, UsuarioViewModel>() {
+class UsuarioView() : CrudLayoutView<UsuarioVo, UsuarioViewModel>() {
   val usuario = EtiquetaUI.user!!
   
   override val viewModel: UsuarioViewModel
     get() = UsuarioViewModel(this)
   
   override fun layoutForm(
-          formLayout: VerticalLayout, operation: CrudOperation?, binder: Binder<UsuarioCrudVo>, readOnly: Boolean
+          formLayout: VerticalLayout, operation: CrudOperation?, binder: Binder<UsuarioVo>, readOnly: Boolean
                          ) {
     formLayout.apply {
       row {
         textField {
           expandRatio = 1f
           caption = "Login Saci"
-          bind(binder).bind(UsuarioCrudVo::loginName)
+          bind(binder).bind(UsuarioVo::loginName)
           addValueChangeListener {
             binder.readBean(binder.bean)
           }
@@ -44,7 +43,7 @@ class UsuarioView() : CrudLayoutView<UsuarioCrudVo, UsuarioViewModel>() {
           expandRatio = 4f
           caption = "Nome"
           isReadOnly = true
-          bind(binder).bind(UsuarioCrudVo::nome)
+          bind(binder).bind(UsuarioVo::nome)
         }
       }
       row {
@@ -56,16 +55,14 @@ class UsuarioView() : CrudLayoutView<UsuarioCrudVo, UsuarioViewModel>() {
           this.emptySelectionCaption = "Todas"
           setItems(viewModel.lojas)
           setItemCaptionGenerator { it.sigla }
-          bind(binder).bind(UsuarioCrudVo::loja)
+          bind(binder).bind(UsuarioVo::loja)
           reloadBinderOnChange(binder)
         }
       }
       row {
-        twinColSelect<LocalCD>("Localizações") {
-          //value = emptySet()
-        
-          bindItensSet(binder, UsuarioCrudVo::locaisLoja)
-          bind(binder).bind(UsuarioCrudVo::locais)
+        twinColSelect<String>("Localizações") {
+          bindItensSet(binder, UsuarioVo::locaisLoja)
+          bind(binder).bind(UsuarioVo::locais)
         }
       }
     }
@@ -75,21 +72,21 @@ class UsuarioView() : CrudLayoutView<UsuarioCrudVo, UsuarioViewModel>() {
     form("Usuários") {
       gridCrud(viewModel.crudClass.java) {
 
-        column(UsuarioCrudVo::loginName) {
+        column(UsuarioVo::loginName) {
           expandRatio = 1
           caption = "Usuário"
           setSortProperty("loginName")
         }
-        column(UsuarioCrudVo::nome) {
+        column(UsuarioVo::nome) {
           expandRatio = 5
           caption = "Nome"
         }
-        column(UsuarioCrudVo::loja) {
+        column(UsuarioVo::loja) {
           expandRatio = 1
           caption = "Loja"
           setRenderer({ loja -> loja?.sigla ?: "Todas" }, TextRenderer())
         }
-        column(UsuarioCrudVo::localStr) {
+        column(UsuarioVo::localStr) {
           expandRatio = 1
           caption = "Localização"
           setSortProperty("localizacaoes")

@@ -46,7 +46,9 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 import kotlin.reflect.KClass
 import kotlin.reflect.KProperty1
+import kotlin.reflect.full.declaredMemberExtensionProperties
 import kotlin.reflect.full.declaredMemberProperties
+import kotlin.reflect.full.memberProperties
 import kotlin.streams.toList
 
 abstract class LayoutView<V : ViewModel> : VerticalLayout(), View, IView {
@@ -194,7 +196,7 @@ inline fun <reified BEAN : Any, FIELDVALUE> HasValue<FIELDVALUE>.reloadBinderOnC
       
       val bean = binder.bean
       if (propertys.isEmpty()) {
-        val bindings = BEAN::class.declaredMemberProperties
+        val bindings = BEAN::class.memberProperties
                 .mapNotNull { prop -> binder.getBinding(prop.name).orElse(null) }
         binder.fields.toList().mapNotNull { field ->
           bindings.find { binding ->

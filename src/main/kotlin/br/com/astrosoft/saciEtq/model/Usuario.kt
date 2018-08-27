@@ -34,6 +34,13 @@ class Usuario : BaseModel() {
   @Formula(select = "(login_name = 'ADM' OR login_name = 'YASMINE')")
   var admin: Boolean = false
   
+  var locaisAbreivados: List<String>
+    get() = locais.map { it.abreviada }
+    set(value) {
+      locais.clear()
+      locais.addAll(value.flatMap { abrev -> LocalCD.find(abrev) })
+    }
+  
   companion object Find : UsuarioFinder() {
     fun findUsuario(loginName: String?): Usuario? {
       if (loginName.isNullOrBlank()) return null

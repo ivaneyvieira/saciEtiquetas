@@ -37,6 +37,7 @@ class EntradaView : NotaView<EntradaVo, EntradaViewModel>() {
                          ) {
     if (operation == ADD) {
       binder.bean.loja = usuario.loja
+      binder.bean.usuario = usuario
     }
     formLayout.apply {
       grupo("Nota fiscal de entrada") {
@@ -95,7 +96,6 @@ class EntradaView : NotaView<EntradaVo, EntradaViewModel>() {
     form("Entrada de produtos") {
       gridCrud(viewModel.crudClass.java) {
         column(EntradaVo::nota) {
-          //isSortable = true
           caption = "Número NF"
           setSortProperty("nota")
         }

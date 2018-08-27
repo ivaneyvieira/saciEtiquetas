@@ -5,6 +5,7 @@ import br.com.astrosoft.framework.utils.SystemUtils
 import br.com.astrosoft.saciEtq.model.Loja
 import br.com.astrosoft.saciEtq.model.Usuario
 import br.com.astrosoft.saciEtq.view.pages.EntradaView
+import br.com.astrosoft.saciEtq.view.pages.EtiquetaView
 import br.com.astrosoft.saciEtq.view.pages.SaidaView
 import br.com.astrosoft.saciEtq.view.pages.UsuarioView
 
@@ -46,7 +47,7 @@ private val log = LoggerFactory.getLogger(EtiquetaUI::class.java)
             "https://code.responsivevoice.org/responsivevoice.js")
 @PushStateNavigation
 class EtiquetaUI : UI() {
-  val title = "<h3>Estoque <strong>Engecopi</strong></h3>"
+  val title = "<h3>Etiquetas <strong>Engecopi</strong></h3>"
   val versao = SystemUtils.readFile("/versao.txt")
   
   override fun init(request: VaadinRequest?) {
@@ -68,6 +69,7 @@ class EtiquetaUI : UI() {
         menuButton("Saída", VaadinIcons.OUTBOX, view = SaidaView::class.java)
         if (user.admin) {
           menuButton("Usuários", VaadinIcons.USER, view = UsuarioView::class.java)
+          menuButton("Etiquetas", VaadinIcons.TEXT_LABEL, view = EtiquetaView::class.java)
         }
       }
       

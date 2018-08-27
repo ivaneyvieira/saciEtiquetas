@@ -28,6 +28,5 @@ object MainQueryBeanGenerator {
     // Additionally generate 'finder's
     generator.generateFinders()
     generator.modifyEntityBeansAddFinderField()
-    
   }
 }

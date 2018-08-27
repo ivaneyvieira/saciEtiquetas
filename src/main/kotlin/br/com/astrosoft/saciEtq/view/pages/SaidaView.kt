@@ -10,6 +10,7 @@ import br.com.astrosoft.framework.view.reloadBinderOnChange
 import br.com.astrosoft.framework.view.row
 import br.com.astrosoft.saciEtq.model.Loja
 import br.com.astrosoft.saciEtq.view.EtiquetaUI
+import br.com.astrosoft.saciEtq.viewmodel.EntradaVo
 import br.com.astrosoft.saciEtq.viewmodel.SaidaViewModel
 import br.com.astrosoft.saciEtq.viewmodel.SaidaVo
 import com.github.vok.karibudsl.AutoView
@@ -37,44 +38,52 @@ class SaidaView : NotaView<SaidaVo, SaidaViewModel>() {
       binder.bean.usuario = usuario
     }
     formLayout.apply {
-      grupo("Nota fiscal de saída") {
-        verticalLayout {
-          row {
-            textField("Nota fiscal") {
-              expandRatio = 2f
-              isReadOnly = operation != ADD
-              bind(binder).bind(SaidaVo::nota)
-              reloadBinderOnChange(binder)
-            }
-            comboBox<Loja>("Loja") {
-              expandRatio = 2f
-              default { it.sigla }
-              isReadOnly = operation != ADD
-              setItems(viewModel.findLojas(usuario.loja))
-              bind(binder).asRequired("A loja deve ser informada").bind(SaidaVo::loja)
-              reloadBinderOnChange(binder)
-            }
-            textField("Tipo") {
-              expandRatio = 2f
-              isReadOnly = true
-              bind(binder).bind(SaidaVo::tipoNota)
-            }
-            dateField("Data") {
-              expandRatio = 1f
-              isReadOnly = true
-              bind(binder).bind(SaidaVo::data)
-            }
-            textField("Rota") {
-              expandRatio = 1f
-              isReadOnly = true
-              bind(binder).bind(SaidaVo::rota)
-            }
+      grupo("Nota fiscal de Saída") {
+        row {
+          textField("Nota Fiscal") {
+            expandRatio = 2f
+            isReadOnly = operation != ADD
+            bind(binder).bind(SaidaVo::nota)
+            reloadBinderOnChange(binder)
           }
-          row {
-            textField("Observação da nota fiscal") {
-              expandRatio = 1f
-              bind(binder).bind(SaidaVo::observacao)
-            }
+          comboBox<Loja>("Loja") {
+            expandRatio = 2f
+            isReadOnly = operation != ADD
+            default { it.sigla }
+          
+            setItems(viewModel.findLojas(usuario.loja))
+          
+            bind(binder).bind(SaidaVo::loja)
+            reloadBinderOnChange(binder)
+          }
+          textField("Tipo") {
+            expandRatio = 2f
+            isReadOnly = true
+            bind(binder).bind(SaidaVo::tipoNota)
+          }
+          textField("Rota") {
+            expandRatio = 1f
+            isReadOnly = true
+            bind(binder).bind(SaidaVo::rota)
+          }
+        }
+        row {
+          textField("Observação") {
+            expandRatio = 2f
+            isReadOnly = true
+            bind(binder).bind(SaidaVo::observacao)
+          }
+        }
+        row {
+          dateField("Data") {
+            expandRatio = 1f
+            isReadOnly = true
+            bind(binder).bind(SaidaVo::data)
+          }
+          textField("Cliente") {
+            expandRatio = 3f
+            isReadOnly = true
+            bind(binder).bind(SaidaVo::clifor)
           }
         }
       }

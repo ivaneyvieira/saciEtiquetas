@@ -24,6 +24,11 @@ class LocalCD : BaseModel() {
               .endOr()
               .findOne()
     }
+    
+    fun find(abrev: String?): List<LocalCD> {
+      abrev ?: return emptyList()
+      return where().abreviada.eq(abrev).findList()
+    }
   }
   
   @Length(30)

@@ -113,3 +113,4 @@ src/main/webapp/VAADIN/themes/mytheme/styles.css.gz
 src/main/webapp/VAADIN/widgetsets/
 .idea/
 .gradle/
+deploy.sh

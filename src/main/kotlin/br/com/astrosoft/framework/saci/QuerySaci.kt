@@ -34,7 +34,8 @@ class QuerySaci : QueryDB(driver, url, username, password, sqldir) {
     }
   }
   
-  fun findUser(login: String): UserSaci? {
+  fun findUser(login: String?): UserSaci? {
+    login ?: return null
     val sql = "/sqlSaci/userSenha.sql"
     return query(sql) { q ->
       q.addParameter("login", login)

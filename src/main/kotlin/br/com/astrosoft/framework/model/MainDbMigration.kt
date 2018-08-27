@@ -12,7 +12,7 @@ object MainDbMigration {
     
     System.setProperty("ddl.migration.name", "migracao")
     //System.setProperty("ddl.migration.version", "V1.12")
-    //System.setProperty("ddl.migration.pendingDropsFor", "1.10");
+    //System.setProperty("ddl.migration.pendingDropsFor", "V1.4")
     val migration = DbMigration.create()
     migration.setStrictMode(false)
     migration.setPlatform(Platform.MYSQL)
