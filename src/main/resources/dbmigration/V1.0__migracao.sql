@@ -3,8 +3,8 @@ create table locais (
   id                            bigint auto_increment not null,
   loja_id                       bigint,
   local_cd_id                   bigint,
-  created_at                    datetime(6) not null,
-  updated_at                    datetime(6) not null,
+  created_at                    datetime not null,
+  updated_at                    datetime not null,
   version                       integer not null,
   constraint pk_locais primary key (id)
 );
@@ -12,8 +12,8 @@ create table locais (
 create table locaiscd (
   id                            bigint auto_increment not null,
   descricao                     varchar(30) not null,
-  created_at                    datetime(6) not null,
-  updated_at                    datetime(6) not null,
+  created_at                    datetime not null,
+  updated_at                    datetime not null,
   version                       integer not null,
   constraint uq_locaiscd_descricao unique (descricao),
   constraint pk_locaiscd primary key (id)
@@ -23,8 +23,8 @@ create table lojas (
   id                            bigint auto_increment not null,
   numero                        integer not null,
   sigla                         varchar(2) not null,
-  created_at                    datetime(6) not null,
-  updated_at                    datetime(6) not null,
+  created_at                    datetime not null,
+  updated_at                    datetime not null,
   version                       integer not null,
   constraint uq_lojas_numero unique (numero),
   constraint pk_lojas primary key (id)
@@ -48,8 +48,8 @@ create table notas (
   cliente                       varchar(255) not null,
   fornecedor                    varchar(255) not null,
   impresso                      tinyint(1) default 0 not null,
-  created_at                    datetime(6) not null,
-  updated_at                    datetime(6) not null,
+  created_at                    datetime not null,
+  updated_at                    datetime not null,
   version                       integer not null,
   constraint ck_notas_tipo_mov check ( tipo_mov in ('ENTRADA','SAIDA')),
   constraint uq_notas_loja_id_nota unique (loja_id,nota),
@@ -61,8 +61,8 @@ create table usuarios (
   login_name                    varchar(8) not null,
   loja_id                       bigint,
   nome                          varchar(50) not null,
-  created_at                    datetime(6) not null,
-  updated_at                    datetime(6) not null,
+  created_at                    datetime not null,
+  updated_at                    datetime not null,
   version                       integer not null,
   constraint uq_usuarios_login_name unique (login_name),
   constraint pk_usuarios primary key (id)
