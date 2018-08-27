@@ -1,30 +1,29 @@
 package br.com.astrosoft.framework.saci
 
 import br.com.astrosoft.framework.saci.beans.LojaSaci
-import br.com.astrosoft.framework.saci.beans.NotaEntradaSaci
-import br.com.astrosoft.framework.saci.beans.NotaSaidaSaci
+import br.com.astrosoft.framework.saci.beans.NotaSaci
 import br.com.astrosoft.framework.saci.beans.UserSaci
 import br.com.astrosoft.framework.utils.DB
 
 class QuerySaci : QueryDB(driver, url, username, password, sqldir) {
 
-  fun findNotaEntrada(storeno: Int, nfname: String, invse: String): List<NotaEntradaSaci> {
+  fun findNotaEntrada(storeno: Int, nfname: String, invse: String): List<NotaSaci> {
     val sql = "/sqlSaci/findNotaEntrada.sql"
     return query(sql) { q ->
       q.addParameter("storeno", "$storeno")
               .addParameter("nfname", nfname)
               .addParameter("invse", invse)
-              .executeAndFetch(NotaEntradaSaci::class.java)
+              .executeAndFetch(NotaSaci::class.java)
     }
   }
   
-  fun findNotaSaida(storeno: Int, nfno: String, nfse: String): List<NotaSaidaSaci> {
+  fun findNotaSaida(storeno: Int, nfno: String, nfse: String): List<NotaSaci> {
     val sql = "/sqlSaci/findNotaSaida.sql"
     return query(sql) { q ->
       q.addParameter("storeno", "$storeno")
               .addParameter("nfno", nfno)
               .addParameter("nfse", nfse)
-              .executeAndFetch(NotaSaidaSaci::class.java)
+              .executeAndFetch(NotaSaci::class.java)
     }
   }
   

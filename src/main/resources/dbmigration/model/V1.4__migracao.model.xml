@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<migration xmlns="http://ebean-orm.github.io/xml/ns/dbmigration">
+    <changeSet type="apply">
+        <addColumn tableName="notas">
+            <column name="clifor" type="varchar" notnull="true"/>
+        </addColumn>
+    </changeSet>
+    <changeSet type="pendingDrops">
+        <dropColumn columnName="cliente" tableName="notas"/>
+        <dropColumn columnName="fornecedor" tableName="notas"/>
+    </changeSet>
+</migration>

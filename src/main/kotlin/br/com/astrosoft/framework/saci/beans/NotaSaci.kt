@@ -1,6 +1,6 @@
 package br.com.astrosoft.framework.saci.beans
 
-class NotaEntradaSaci(
+class NotaSaci(
         val rota: String?,
         val storeno: Int?,
         val nfno: String?,
@@ -9,7 +9,7 @@ class NotaEntradaSaci(
         val prdno: String?,
         val grade: String?,
         val quant: Int?,
-        val vendName: String?,
+        val clifor: String?,
         val tipo: String?,
         val localizacao: String?,
         val saldo: Int?,

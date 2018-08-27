@@ -1,8 +1,7 @@
 package br.com.astrosoft.saciEtq.model
 
 import br.com.astrosoft.framework.model.BaseModel
-import br.com.astrosoft.framework.saci.beans.NotaEntradaSaci
-import br.com.astrosoft.framework.saci.beans.NotaSaidaSaci
+import br.com.astrosoft.framework.saci.beans.NotaSaci
 import br.com.astrosoft.framework.saci.saci
 import br.com.astrosoft.saciEtq.model.TipoMov.ENTRADA
 import br.com.astrosoft.saciEtq.model.TipoMov.SAIDA
@@ -46,8 +45,8 @@ class Nota : BaseModel() {
   @ManyToOne(cascade = [CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH])
   var usuario: Usuario? = null
   var quantidade: Int = 0
-  var cliente: String = ""
-  var fornecedor: String = ""
+  @Length(50)
+  var clifor: String = ""
   var impresso: Boolean = false
   @Length(100)
   var observacao: String = ""
@@ -70,7 +69,7 @@ class Nota : BaseModel() {
               .findOne()
     }
     
-    fun findNotaEntradaSaci(numeroNF: String?, lojaNF: Loja?): List<NotaEntradaSaci> {
+    fun findNotaEntradaSaci(numeroNF: String?, lojaNF: Loja?): List<NotaSaci> {
       numeroNF ?: return emptyList()
       lojaNF ?: return emptyList()
       val numero = numeroNF.split("/").getOrNull(0) ?: return emptyList()
@@ -78,7 +77,7 @@ class Nota : BaseModel() {
       return saci.findNotaEntrada(lojaNF.numero, numero, serie)
     }
     
-    fun findNotaSaidaSaci(numeroNF: String?, lojaNF: Loja?): List<NotaSaidaSaci> {
+    fun findNotaSaidaSaci(numeroNF: String?, lojaNF: Loja?): List<NotaSaci> {
       numeroNF ?: return emptyList()
       lojaNF ?: return emptyList()
       val numero = numeroNF.split("/").getOrNull(0) ?: return emptyList()

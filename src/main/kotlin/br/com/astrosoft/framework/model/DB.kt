@@ -1,12 +1,9 @@
 package br.com.astrosoft.framework.model
 
-import br.com.astrosoft.framework.model.AppException
-import br.com.astrosoft.framework.model.BaseModel
-import br.com.astrosoft.framework.model.DevException
+import br.com.astrosoft.framework.utils.SystemUtils
 import io.ebean.RawSqlBuilder
-import kotlin.reflect.full.isSubclassOf
-
 import javax.persistence.PersistenceException
+import kotlin.reflect.full.isSubclassOf
 
 object DB {
   fun <R> xa(lambda: () -> R): R {
@@ -39,12 +36,19 @@ object DB {
   }
   
   @Throws(PersistenceException::class)
-  fun sciptSql(
+  fun scriptSql(
           sqlScript: String, vararg params: Pair<String, Any>
-              ) {
+               ) {
     xa {
       val sqls = sqlScript.split()
       executeSqls(sqls, * params)
+    }
+  }
+  
+  fun initDB() {
+    val sqlfile = "/sql/update.sql"
+    SystemUtils.readFile(sqlfile)?.let {
+      scriptSql(it)
     }
   }
   

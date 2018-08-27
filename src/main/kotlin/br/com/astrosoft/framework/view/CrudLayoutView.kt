@@ -73,7 +73,7 @@ abstract class CrudLayoutView<C : EntityVo<*>, V : CrudViewModel<*, *, C>> : Lay
     return column
   }
   
-  abstract fun layoutForm(
+  protected abstract fun layoutForm(
           formLayout: VerticalLayout,
           operation: CrudOperation?,
           binder: Binder<C>,

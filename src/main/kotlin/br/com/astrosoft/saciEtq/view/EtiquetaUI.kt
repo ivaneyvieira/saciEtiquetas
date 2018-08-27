@@ -1,5 +1,6 @@
 package br.com.astrosoft.saciEtq.view
 
+import br.com.astrosoft.framework.model.DB
 import br.com.astrosoft.framework.utils.SystemUtils
 import br.com.astrosoft.saciEtq.model.Loja
 import br.com.astrosoft.saciEtq.model.Usuario
@@ -124,6 +125,7 @@ class MyUIServlet : VaadinServlet() {
       // Vaadin logs into java.util.logging. Redirect that, so that all logging goes through slf4j.
       SLF4JBridgeHandler.removeHandlersForRootLogger()
       SLF4JBridgeHandler.install()
+      DB.initDB()
     }
   }
 }
